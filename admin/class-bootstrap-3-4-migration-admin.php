@@ -99,5 +99,22 @@ class Bootstrap_3_4_Migration_Admin {
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/bootstrap-3-4-migration-admin.js', array( 'jquery' ), $this->version, false );
 
 	}
+	// Creating a settings page 
+	public function display_admin_page() {
+		add_menu_page(
+			'Bootstrap Migration Admin',
+			'Bootstrap Migration',
+			'manage_options',
+			'bootstrap-migration-options',
+		
+		array( $this, 'include_overview_partial' ),
+		'',
+		9999
+			);
+		}
+	public function include_overview_partial() {
+		include_once( PLUGIN_PATH . 'admin/partials/bootstrap-3-4-migration-admin-display.php' );
+	}
+
 
 }
