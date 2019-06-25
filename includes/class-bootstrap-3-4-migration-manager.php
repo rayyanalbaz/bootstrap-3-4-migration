@@ -3,9 +3,8 @@ class bootstrapMigration {
 
     public function __construct()
     {
-
     }
-    public function initialize_table(){
+    function initialize_table(){
         global $wpdb;
         $table_name = $wpdb->prefix.'bootstrap_dictionary';
         if($wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name) {
@@ -33,5 +32,28 @@ class bootstrapMigration {
             $wpdb->query($sql);
         }
     }
-}
+    function add_dictionary($old,$new){
+        global $wpdb;
+        $table_name = $wpdb->prefix.'bootstrap_dictionary';
+        $time = time();
 
+        $result = $wpdb->query("SELECT id FROM $table_name WHERE old = '$old'");
+        if($result == 0) {
+            $sql = "INSERT INTO $table_name ( old, new, created)
+            VALUES ( '$old', '$new', '$time');";
+            $wpdb->query($sql);
+        }
+    }
+    function read_by_id($id){
+        global $wpdb;
+        $table_name = $wpdb->prefix.'bootstrap_dictionary';
+        $result =  $wpdb->get_row("SELECT * FROM $table_name WHERE id = '$id'", ARRAY_A , 0);
+        return $result;
+    }
+    function read_by_old($old){
+        global $wpdb;
+        $table_name = $wpdb->prefix.'bootstrap_dictionary';
+        $result =  $wpdb->get_row("SELECT * FROM $table_name WHERE old = '$old'", ARRAY_A , 0);
+        return $result;
+    }
+}
