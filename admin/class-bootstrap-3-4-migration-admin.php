@@ -99,7 +99,11 @@ class Bootstrap_3_4_Migration_Admin {
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/bootstrap-3-4-migration-admin.js', array( 'jquery' ), $this->version, false );
 
 	}
-	// Creating a settings page 
+	/**
+	 * Create settings page.
+	 *
+	 * @since    1.0.0
+	 */
 	public function display_admin_page() {
 		add_menu_page(
 			'Bootstrap Migration Admin',
@@ -112,9 +116,18 @@ class Bootstrap_3_4_Migration_Admin {
 		9999
 			);
 		}
+
 	public function include_overview_partial() {
 		include_once( PLUGIN_PATH . 'admin/partials/bootstrap-3-4-migration-admin-display.php' );
 	}
-
+	/**
+	 * Invoke the upgrade class function.
+	 *
+	 * @since    1.0.0
+	 */   
+	public function invoke_upgrade() {
+		$migration_manager = new bootstrap_migration();
+		$migration_manager->upgrade_class();
+	}
 
 }
