@@ -122,6 +122,11 @@ class Bootstrap_3_4_Migration {
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-bootstrap-3-4-migration-public.php';
 
+		/**
+		 * The class responsible for defining and initializing Bootstrap Migration
+		 */
+		require_once plugin_dir_path(dirname(__FILE__)) . 'includes/class-bootstrap-3-4-migration-manager.php';
+
 		$this->loader = new Bootstrap_3_4_Migration_Loader();
 
 	}
@@ -156,9 +161,8 @@ class Bootstrap_3_4_Migration {
 
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
-		// $this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'bootstrap_migration' );
 		$this->loader->add_action( 'admin_menu', $plugin_admin, 'display_admin_page' );
-
+		$this->loader->add_filter('wp_head', $plugin_admin, 'invoke_upgrade');
 	}
 
 	/**
@@ -171,10 +175,8 @@ class Bootstrap_3_4_Migration {
 	private function define_public_hooks() {
 
 		$plugin_public = new Bootstrap_3_4_Migration_Public( $this->get_plugin_name(), $this->get_version() );
-
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
-
 	}
 
 	/**

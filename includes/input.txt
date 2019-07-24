@@ -1,0 +1,1103 @@
+<html lang="en-US">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125262141-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-125262141-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://qa.fes.yorku.ca/xmlrpc.php">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="shortcut icon" href="http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/favicon.ico" />
+    <title>Faculty of Environmental Studies &#8211; CHALLENGE WHAT IS. IMAGINE WHAT COULD BE. TRANSFORM THE FUTURE.</title>
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Faculty of Environmental Studies &raquo; Feed" href="http://qa.fes.yorku.ca/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Faculty of Environmental Studies &raquo; Comments Feed" href="http://qa.fes.yorku.ca/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Faculty of Environmental Studies &raquo; Welcome Comments Feed" href="http://qa.fes.yorku.ca/home/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/qa.fes.yorku.ca\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.2.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='otw_sbm.css-css'  href='http://qa.fes.yorku.ca/wp-content/plugins/sidebar-manager-light/css/otw_sbm.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='http://qa.fes.yorku.ca/wp-includes/css/dist/block-library/style.min.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='flexy-breadcrumb-css'  href='http://qa.fes.yorku.ca/wp-content/plugins/flexy-breadcrumb/public/css/flexy-breadcrumb-public.css?ver=1.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='flexy-breadcrumb-font-awesome-css'  href='http://qa.fes.yorku.ca/wp-content/plugins/flexy-breadcrumb/public/css/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='pbp-access-css'  href='http://qa.fes.yorku.ca/wp-content/plugins/pbp-access/public/css/pbp-access-public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='json-to-twig-css'  href='http://qa.fes.yorku.ca/wp-content/plugins/json-to-twig/public/css/json-to-twig-public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-fes-listserv-manager-css'  href='http://qa.fes.yorku.ca/wp-content/plugins/wp-fes-listserv-manager/public/css/wp-fes-listserv-manager-public.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='yorku-style-css'  href='http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/style.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='smart-menu-core-css'  href='http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/css/sm-core-css.css?ver=20151215' type='text/css' media='' />
+<link rel='stylesheet' id='smart-menu-yorku-modern-sidebar-css'  href='http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/css/sm-yorku-modern-sidebar.css?ver=20151215' type='text/css' media='' />
+<link rel='stylesheet' id='smart-menu-yorku-standard-css'  href='http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/css/sm-yorku-standard.css?ver=20151215' type='text/css' media='' />
+<link rel='stylesheet' id='basictable-css-css'  href='http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/css/basictable.css?ver=20151215' type='text/css' media='' />
+<link rel='stylesheet' id='basictable-tweaks-css'  href='http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/css/basictable-tweaks.css?ver=20151215' type='text/css' media='' />
+<link rel='stylesheet' id='full-width-style-css'  href='http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/css/full-width-style.css?ver=20151215' type='text/css' media='' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://qa.fes.yorku.ca/wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://qa.fes.yorku.ca/wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=5.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='views-pagination-style-css'  href='http://qa.fes.yorku.ca/wp-content/plugins/wp-views/embedded/res/css/wpv-pagination.css?ver=2.7.3' type='text/css' media='all' />
+<style id='views-pagination-style-inline-css' type='text/css'>
+.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item a {color: #444;background-color: #fff;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default a:focus {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-default .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #eee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item {border-color: #cdcdcd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item a {color: #444;background-color: #eeeeee;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey a:focus {color: #000;background-color: #e5e5e5;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-grey .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #e5e5e5;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue > span.wpv-sort-list,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue .wpv-sort-list-item {border-color: #0099cc;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue .wpv-sort-list-item a {color: #444;background-color: #cbddeb;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue a:hover,.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue a:focus {color: #000;background-color: #95bedd;}.wpv-sort-list-dropdown.wpv-sort-list-dropdown-style-blue .wpv-sort-list-item.wpv-sort-list-current a {color: #000;background-color: #95bedd;}
+</style>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-content/plugins/pbp-access/public/js/pbp-access-public.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-content/plugins/json-to-twig/public/js/json-to-twig-public.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-content/plugins/wp-fes-listserv-manager/public/js/wp-fes-listserv-manager-public.js?ver=1.0.0'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=5.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<link rel='https://api.w.org/' href='http://qa.fes.yorku.ca/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://qa.fes.yorku.ca/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://qa.fes.yorku.ca/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.2.1" />
+<link rel="canonical" href="http://qa.fes.yorku.ca/" />
+<link rel='shortlink' href='http://qa.fes.yorku.ca/' />
+<link rel="alternate" type="application/json+oembed" href="http://qa.fes.yorku.ca/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fqa.fes.yorku.ca%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://qa.fes.yorku.ca/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fqa.fes.yorku.ca%2F&#038;format=xml" />
+<link rel="pingback" href="http://qa.fes.yorku.ca/xmlrpc.php">	<style type="text/css">
+			.site-title,
+		.site-description {
+			position: absolute;
+			clip: rect(1px, 1px, 1px, 1px);
+		}
+		</style>
+			<style type="text/css" id="wp-custom-css">
+			/* Yes for a day style exception */
+#wpv-view-layout-362-CATTRb643ffe0e3377cd8d43ee524276ad34bTCPID50905 > div.short-slide-wrapper > div.short-slide-content > div.short-slide-heading {
+	word-spacing : 0;
+}		</style>
+		</head>
+
+<body class="home page-template page-template-page-no-sidebar page-template-page-no-sidebar-php page page-id-2">
+    <div id="top" name="top"></div>
+        <div id="page" class="site">
+        <span class="standard-header">
+            <div class="toggle-central-search">
+                <form method="get" class="central-search-mobile" action="https://search2.info.yorku.ca/">
+                    <div class="input-group">
+                        <label for="q" style="display:none;">YorkU Search</label>
+                        <input type="search" name="q" class="form-control" placeholder="Search York University...">
+                        <span class="input-group-btn">
+                            <button aria-label="yorku-search-submit" class="btn btn-default" type="submit">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </span>
+                    </div>
+                    <!-- /input-group -->
+                </form>
+            </div>
+            <a class="skip-link screen-reader-text" href="#main">
+                Skip to content            </a>
+            <header id="masthead" class="site-header" role="banner">
+                <div class="site-branding standard-header">
+                    <a href="http://www.yorku.ca">
+                        <img class="yorku-logo" src="http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/images/yorku-logo.png"
+                            alt="YorkU Logo" />
+                        <img class="yorku-logo-small" src="http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/images/yorku-logo-small.png"
+                            alt="YorkU Logo" />
+                    </a>
+                    <div class="links-search-wrapper">
+                        <div class="central-quick-links">Quick Links
+                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </div>
+                        <div class="search-central-mobile">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </div>
+                        <form method="get" class="central-search-desktop" action="https://search2.info.yorku.ca/">
+                            <div class="input-group">
+                                <label for="q" style="display:none;">YorkU Search</label>
+                                <input type="search" name="q" class="form-control" placeholder="Search York University...">
+                                <span class="input-group-btn">
+                                    <button aria-label="yorku-search-submit" class="btn btn-default" type="submit">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </button>
+                                </span>
+                            </div>
+                            <!-- /input-group -->
+                        </form>
+                        <!-- <div class="search-link search-icon">Search FES
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </div> -->
+                        <!-- <i class="fa fa-search search-icon fa-lg" aria-hidden="true"></i> -->
+                    </div>
+                </div>
+                <!-- .site-branding -->
+                <div class="quick-links-content">
+                    <div class="quick-links-content-wrapper">
+                        <div class="col4">
+<div class="accessible"><h1>Quick Links Menus</h1></div>
+  <h2>York U <span class="accessible">Organization Menu</span></h2>
+  <ul>
+  <li><a href="https://about.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','About York U');">About York U</a></li>
+  <li><a href="https://president.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','President\'s Message');">President's Message</a></li>
+  <li><a href="https://teachingandlearning.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','Teaching & Learning');">Teaching &amp; Learning</a></li>
+  <li><a href="https://www.yorku.ca/research/" onClick="ga('send','event','York U homepage','globalnav','Research');">Research &amp; Innovation</a> </li>
+  <li><a href="https://www.glendon.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','Glendon Campus');">Glendon Campus</a></li>
+  <li><a href="https://about.yorku.ca/careers/" onClick="ga('send','event','York U homepage','globalnav','Careers');">Careers</a></li>
+  <li><a href="https://about.yorku.ca/our-faculties/" onClick="ga('send','event','York U homepage','globalnav','Faculties');">Faculties</a></li>
+  <li><a href="https://about.yorku.ca/organization/" onClick="ga('send','event','York U homepage','globalnav','York U Organization');">York U Organization</a></li>
+  <li><a href="https://campuslife.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','Campus Life');">Campus Life</a></li>
+  <li><a href="https://socialmedia.yorku.ca/yorku-social-media-directory/" onClick="ga('send','event','York U homepage','globalnav','York U Social Media Directory');">York U Social Media Directory</a></li>
+  </ul>
+</div>
+
+<div class="col4">
+<h2>Students <span class="accessible">Menu</span></h2>
+<ul>
+  <li><a href="https://futurestudents.yorku.ca/programsearch/" onClick="ga('send','event','York U homepage','globalnav','Programs of Study');">Programs of Study</a></li>
+  <li><a href="https://futurestudents.yorku.ca/requirements/apply" onClick="ga('send','event','York U homepage','globalnav','Undergraduate Admissions');">Undergraduate Admissions</a></li>
+  <li><a href="https://futurestudents.yorku.ca/graduate/" onClick="ga('send','event','York U homepage','globalnav','Graduate Admissions');">Graduate Admissions</a></li>
+  <li><a href="https://futurestudents.yorku.ca/continuing/" onClick="ga('send','event','York U homepage','globalnav','Continuing Education');">Continuing Education</a></li>
+  <li><a href="https://futurestudents.yorku.ca/tour/" onClick="ga('send','event','York U homepage','globalnav','Book a Tour');">Book a Tour</a></li>
+  <li><a href="https://www.library.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','Libraries');">Libraries</a></li>
+  <li><a href="https://yorkinternational.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','York International');">York International</a></li>
+  <li><a href="http://mail.my.yorku.ca" onClick="ga('send','event','York U homepage','globalnav','Google Mail');">Google Mail</a> / <a href="https://mymail.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','MyMail');">MyMail</a></li>
+  <li><a href="https://moodle.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','Moodle');">Moodle</a></li>
+  <li><a href="https://my.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','myyorku');">my.yorku.ca portal</a></li>
+</ul>
+</div>
+<div class="mobile-header-clear"></div>
+
+<div class="col4">
+<h2>Faculty &amp; Staff</h2>
+<ul>
+  <li><a href="https://facultyandstaff.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','Faculty & Staff Home');">Faculty &amp; Staff Home</a></li>
+  <li><a href="https://yulink.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','YU Link');">yu link</a></li>
+  <li><a href="https://mymail.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','MyMail');">MyMail</a></li>
+  <li><a href="http://portal.office.com/" onClick="ga('send','event','York U homepage','globalnav','Office365');">Office 365</a></li>
+</ul>
+<div class="desktop-quicklinks-btns">
+<button onclick="ga('send','event','York U homepage','globalnav','Libraries desktop'); javascript:location.href='https://www.library.yorku.ca/web'" class="header-btn"><i class="fa fa-book"></i> Libraries</button>
+<button onclick="ga('send','event','York U homepage','globalnav','Directory desktop'); javascript:location.href='https://atlas.yorku.ca'" class="header-btn"><i class="fa fa-binoculars"></i> Directory</button>
+<button onclick="ga('send','event','York U homepage','globalnav','Campus Maps desktop'); javascript:location.href='https://maps.info.yorku.ca/'" class="header-btn"><i class="fa fa-map-marker"></i> Campus Maps</button>
+</div>
+</div>
+
+<div class="col4">
+<h2>Community<span class="accessible">Menu</span></h2>
+<ul>
+  <li><a href="https://family.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','Parents & Family');">Parents &amp; Family</a></li>
+  <li><a href="https://futurestudents.yorku.ca/counsellors/" onClick="ga('send','event','York U homepage','globalnav','Counsellors & Teachers');">Counsellors &amp; Teachers</a> </li>
+  <li><a href="https://news.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','Media');">Media</a></li>
+  <li><a href="https://yorku.ca/community/" onClick="ga('send','event','York U homepage','globalnav','Community Engagement');">Community Engagement</a></li>
+  <li><a href="https://advancement.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','Giving to York');">Giving to York</a></li>
+  <li><a href="https://www.yorkulions.ca/" onClick="ga('send','event','York U homepage','globalnav','York U Lions');">York U Lions</a></li>
+  <li><a href="https://accessibilityhub.info.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','Accessibility');">Accessibility</a></li>
+  <li><a href="https://site.info.yorku.ca/weather-status/" onClick="ga('send','event','York U homepage','globalnav','Weather Status');">Weather Status</a></li>
+  <li><a href="https://sexual-violence-response.info.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','Sexual Violence Response and Support');">Sexual Violence Response and Support</a></li>
+  <li><a href="https://safety.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','Community Safety');">Community Safety</a></li>
+  <li><a href="https://markham.yorku.ca/" onClick="ga('send','event','York U homepage','globalnav','York University in Markham');">York University in Markham</a></li>
+</ul>
+</div><div class="clear"></div>
+                    </div>
+                </div>
+                <div class="sub-site-name-banner-wrapper ">
+                    <div class="sub-site-name-banner">
+                        <div class="sub-site-name">
+                            <a href="http://qa.fes.yorku.ca">
+                                Faculty of Environmental Studies                            </a>
+                        </div>
+                        <div class="social-links">
+                            <span class="social">
+                                                                <a aria-label="facebook-link" href="http://www.facebook.com/YorkUFES">
+                                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                </a>
+                                                                                                <a aria-label="twitter-link" href="http://twitter.com/EnvironmentYork">
+                                    <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                                </a>
+                                                                                                <a aria-label="instagram-link" href="http://www.instagram.com/environmentyork/">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                                                                                                <a aria-label="youtube-link" href="http://www.youtube.com/user/environmentalstudies">
+                                    <i class="fa fa-youtube-square" aria-hidden="true"></i>
+                                </a>
+                                                                                                                                <a aria-label="linkedin-link" href="http://ca.linkedin.com/in/fesalum">
+                                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                                </a>
+                                                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <nav id="site-navigation" class="main-navigation" role="navigation">
+                    <div class="nav-wrapper">
+                        <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+                            <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+                        </button>
+                        <div class="menu-main-menu-container"><ul id="primary-menu" class="sm sm-yorku sm-yorku-standard"><li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-19"><a href="http://qa.fes.yorku.ca/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-371" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-371"><a href="http://qa.fes.yorku.ca/about/#vision">Our Vision</a></li>
+	<li id="menu-item-372" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-372"><a href="http://qa.fes.yorku.ca/about/#dean-message">Dean&#8217;s Message</a></li>
+	<li id="menu-item-373" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-373"><a href="http://qa.fes.yorku.ca/about/#history">Our History</a></li>
+	<li id="menu-item-374" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-374"><a href="http://qa.fes.yorku.ca/about/#equity">Equity</a></li>
+	<li id="menu-item-43379" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43379"><a href="http://qa.fes.yorku.ca/about/#our-community">Our Community</a></li>
+	<li id="menu-item-42487" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42487"><a href="/about/staff-directory/">Directory</a></li>
+</ul>
+</li>
+<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-20"><a href="http://qa.fes.yorku.ca/apply/">Future Students</a>
+<ul class="sub-menu">
+	<li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="http://qa.fes.yorku.ca/apply/bes/">Bachelor in Environmental Studies</a></li>
+	<li id="menu-item-334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-334"><a href="http://qa.fes.yorku.ca/apply/mes/">Master in Environmental Studies</a></li>
+	<li id="menu-item-349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-349"><a href="http://qa.fes.yorku.ca/apply/phd/">PhD in Environmental Studies</a></li>
+	<li id="menu-item-42739" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-42739"><a href="http://qa.fes.yorku.ca/high-school-outreach/">High School Outreach</a></li>
+</ul>
+</li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-21"><a href="http://qa.fes.yorku.ca/students/">Current Students</a>
+<ul class="sub-menu">
+	<li id="menu-item-42119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-42119"><a href="http://qa.fes.yorku.ca/students/bes/">Bachelor in Environmental Studies</a>
+	<ul class="sub-menu">
+		<li id="menu-item-42384" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-42384"><a href="http://qa.fes.yorku.ca/students/student-success-corner/">Student Success Corner</a>
+		<ul class="sub-menu">
+			<li id="menu-item-42400" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42400"><a href="http://qa.fes.yorku.ca/students/student-success-corner/#incoming-students">Incoming Students</a></li>
+			<li id="menu-item-42401" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42401"><a href="http://qa.fes.yorku.ca/students/student-success-corner/#continuing-students">Continuing Students</a></li>
+			<li id="menu-item-42402" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42402"><a href="http://qa.fes.yorku.ca/students/student-success-corner/#resources">Resources</a></li>
+			<li id="menu-item-42403" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42403"><a href="http://qa.fes.yorku.ca/students/student-success-corner/#peer-mentors">Peer Mentors</a></li>
+		</ul>
+</li>
+		<li id="menu-item-42387" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42387"><a href="http://qa.fes.yorku.ca/students/experiential-education/">Experiential Education</a></li>
+	</ul>
+</li>
+	<li id="menu-item-42300" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-42300"><a href="http://qa.fes.yorku.ca/students/mes/">Master in Environmental Studies</a>
+	<ul class="sub-menu">
+		<li id="menu-item-42304" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42304"><a href="http://qa.fes.yorku.ca/students/mes/#mes-program-options">Program Options</a></li>
+		<li id="menu-item-42972" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42972"><a href="http://qa.fes.yorku.ca/students/mes/#plan-of-study">Plan of Study</a></li>
+		<li id="menu-item-42973" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42973"><a href="http://qa.fes.yorku.ca/students/mes/#registration-and-enrolment">Registration and Enrolment</a></li>
+		<li id="menu-item-42974" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42974"><a href="http://qa.fes.yorku.ca/students/mes/#choosing-courses-and-enrolling">Courses and Enrolling</a></li>
+		<li id="menu-item-50125" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-50125"><a href="http://fesweb.qa.fes.yorku.ca/dossier/">Dossier System</a></li>
+		<li id="menu-item-60336" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60336"><a href="http://events.qa.fes.yorku.ca/graduate-important-dates/">Important Dates</a></li>
+	</ul>
+</li>
+	<li id="menu-item-43243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-43243"><a href="http://qa.fes.yorku.ca/students/phd/">PhD in Environmental Studies</a>
+	<ul class="sub-menu">
+		<li id="menu-item-43268" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43268"><a href="http://qa.fes.yorku.ca/students/phd/#program-details">Program Details</a></li>
+		<li id="menu-item-43269" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43269"><a href="http://qa.fes.yorku.ca/students/phd/#supervision">Supervision</a></li>
+		<li id="menu-item-43270" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43270"><a href="http://qa.fes.yorku.ca/students/phd/#registration-and-enrolment">Registration and Enrolment</a></li>
+		<li id="menu-item-43357" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43357"><a href="http://qa.fes.yorku.ca/students/phd/#our-phd-students">Our PhD Students</a></li>
+		<li id="menu-item-60337" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60337"><a href="http://events.qa.fes.yorku.ca/graduate-important-dates/">Important Dates</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://qa.fes.yorku.ca/faculty/">Faculty</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-23"><a href="http://qa.fes.yorku.ca/research/">Research</a>
+<ul class="sub-menu">
+	<li id="menu-item-40318" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40318"><a href="http://qa.fes.yorku.ca/research/#projects">Projects</a></li>
+	<li id="menu-item-40319" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40319"><a href="http://qa.fes.yorku.ca/research/#student-research">Student Research</a></li>
+	<li id="menu-item-59815" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59815"><a href="http://qa.fes.yorku.ca/research/#outstanding-papers">Outstanding Papers</a></li>
+	<li id="menu-item-40320" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40320"><a href="http://qa.fes.yorku.ca/research/#publications">Publications</a></li>
+	<li id="menu-item-40321" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40321"><a href="http://qa.fes.yorku.ca/research/#research-services">Services</a></li>
+</ul>
+</li>
+<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24"><a href="http://qa.fes.yorku.ca/alumni/">Alumni &#038; Giving</a>
+<ul class="sub-menu">
+	<li id="menu-item-41946" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41946"><a href="http://qa.fes.yorku.ca/alumni/#get-involved">Get Involved</a></li>
+	<li id="menu-item-41947" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41947"><a href="http://qa.fes.yorku.ca/alumni/#starts-with-you">It Starts with You</a></li>
+	<li id="menu-item-41948" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41948"><a href="http://qa.fes.yorku.ca/alumni/#impact">This is Impact</a></li>
+	<li id="menu-item-41949" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-41949"><a href="http://qa.fes.yorku.ca/alumni/#alumni-profiles">Our Alumni</a>
+	<ul class="sub-menu">
+		<li id="menu-item-41953" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-41953"><a href="http://qa.fes.yorku.ca/alumni/profiles/">Alumni Profiles</a></li>
+	</ul>
+</li>
+	<li id="menu-item-41950" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41950"><a href="http://qa.fes.yorku.ca/alumni/#alumni-news">Alumni News</a></li>
+	<li id="menu-item-41951" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41951"><a href="http://qa.fes.yorku.ca/alumni/#connect">Connect with Us</a></li>
+</ul>
+</li>
+<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-25"><a href="http://qa.fes.yorku.ca/resources/">Services</a>
+<ul class="sub-menu">
+	<li id="menu-item-40329" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-40329"><a href="http://qa.fes.yorku.ca/resources/#computing">Computing</a>
+	<ul class="sub-menu">
+		<li id="menu-item-41970" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41970"><a href="http://qa.fes.yorku.ca/resources/fas/">Getting Started (FAS/Passport York)</a></li>
+		<li id="menu-item-41971" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41971"><a href="http://qa.fes.yorku.ca/resources/labs/">Computer Labs</a></li>
+		<li id="menu-item-41972" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41972"><a href="http://qa.fes.yorku.ca/resources/software/">Software</a></li>
+		<li id="menu-item-41973" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41973"><a href="http://qa.fes.yorku.ca/resources/listserv/">FES ListServ</a></li>
+		<li id="menu-item-41974" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41974"><a href="http://qa.fes.yorku.ca/resources/employee-account-request/">Employee Account Request</a></li>
+		<li id="menu-item-41975" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41975"><a href="http://qa.fes.yorku.ca/resources/guest-account-request/">Guest Account Request</a></li>
+		<li id="menu-item-41976" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41976"><a href="http://qa.fes.yorku.ca/resources/staff-printing/">Printing for Staff &#038; Faculty</a></li>
+		<li id="menu-item-41977" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-41977"><a href="http://qa.fes.yorku.ca/resources/faculty-and-staff/">Staff &#038; Faculty ListServ</a></li>
+	</ul>
+</li>
+	<li id="menu-item-40331" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-40331"><a href="http://qa.fes.yorku.ca/resources/#career-services">Career Services</a>
+	<ul class="sub-menu">
+		<li id="menu-item-42068" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42068"><a href="http://qa.fes.yorku.ca/resources/for-job-seekers/">For Job Seekers</a></li>
+		<li id="menu-item-42069" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-42069"><a href="http://qa.fes.yorku.ca/resources/for-employers/">For Employers</a></li>
+	</ul>
+</li>
+	<li id="menu-item-40332" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40332"><a href="http://qa.fes.yorku.ca/resources/#faculty-governance">Faculty Governance</a></li>
+	<li id="menu-item-40333" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-40333"><a href="http://qa.fes.yorku.ca/resources/#financial-support">Financial Support</a></li>
+	<li id="menu-item-60296" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60296"><a href="http://qa.fes.yorku.ca/resources/labs/#room-bookings">Room Bookings</a></li>
+</ul>
+</li>
+</ul></div>                        <div style="display:none;" id="auto-nav-toggle">
+                             <!-- This updates the HTML by injecting the user inputted icon into the appropriate field -->
+                             
+                                                            <i class="fa fa-compass fa-2x"> </i> 
+                                
+                                                    </div>
+                        <div class="nav-search">
+                            <span class="native-search">
+    <form method="get" role="search" action="http://qa.fes.yorku.ca/">
+        <div class="input-group">
+             <!--  This updates the HTML by injecting the user inputted text into the appropriate field -->
+             
+                            <input type="search" name="s" class="form-control" placeholder="Search FES...">                     
+            
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="submit" onclick="submit();"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </span>
+        </div><!-- /input-group -->
+    </form>
+</span>                        </div>
+                    </div>
+                </nav>
+                <!-- #site-navigation -->
+            </header>
+            <!-- #masthead -->
+        </span>
+        <span id="nav-marker"></span>
+        <div class="widget_text yorku-slideshow-widget"><div class="textwidget custom-html-widget">
+<div id="wpv-view-layout-360-CATTR3dcb45a7aed81f3091efd5e6b4106b77TCPID2" class="js-wpv-view-layout js-wpv-layout-responsive js-wpv-view-layout-360-CATTR3dcb45a7aed81f3091efd5e6b4106b77TCPID2" data-viewnumber="360-CATTR3dcb45a7aed81f3091efd5e6b4106b77TCPID2" data-pagination="{&quot;id&quot;:&quot;360&quot;,&quot;base_permalink&quot;:&quot;/?wpv_view_count=360-CATTR3dcb45a7aed81f3091efd5e6b4106b77TCPID2&amp;wpv_paged=WPV_PAGE_NUM&quot;,&quot;query&quot;:&quot;normal&quot;,&quot;type&quot;:&quot;paged&quot;,&quot;effect&quot;:&quot;fade&quot;,&quot;duration&quot;:500,&quot;speed&quot;:5,&quot;pause_on_hover&quot;:&quot;disabled&quot;,&quot;stop_rollover&quot;:&quot;false&quot;,&quot;cache_pages&quot;:&quot;enabled&quot;,&quot;preload_images&quot;:&quot;enabled&quot;,&quot;preload_pages&quot;:&quot;enabled&quot;,&quot;preload_reach&quot;:&quot;1&quot;,&quot;spinner&quot;:&quot;builtin&quot;,&quot;spinner_image&quot;:&quot;http://qa.fes.yorku.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif&quot;,&quot;callback_next&quot;:&quot;&quot;,&quot;manage_history&quot;:&quot;disabled&quot;,&quot;has_controls_in_form&quot;:&quot;disabled&quot;,&quot;infinite_tolerance&quot;:&quot;0&quot;,&quot;max_pages&quot;:1,&quot;page&quot;:1,&quot;loop&quot;:{&quot;type&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;data&quot;:[],&quot;id&quot;:0}}" data-permalink="/?wpv_view_count=360-CATTR3dcb45a7aed81f3091efd5e6b4106b77TCPID2">
+
+	
+	
+	
+			<div class="slide-background-color"></div>
+<div class="slide-font-color"></div>
+<div class="slide-wrapper">
+<div class="slide-overlay"></div>
+<div class="slide-content" style="display: none;">
+<div class="slide-heading">THIS IS ENVIRONMENTAL STUDIES</div>
+<div class="slide-sub-heading"></div>
+</p></div>
+<div><a href="#home" aria-label="scroll-down-link" class="slide-down-arrow" style="display: none;"><i class="fa fa-chevron-down fa-3x" aria-hidden="true"></i></a></div>
+<div id="fifty-logo"><a href="http://qa.fes.yorku.ca/50th/"><img src="http://qa.fes.yorku.ca/wp-content/uploads/2018/11/50-web.png" alt="50th Logo" /></a></div>
+</div>
+<div class="slide-background-img">http://qa.fes.yorku.ca/wp-content/uploads/2017/08/main.jpg</div>
+
+	
+		
+	
+	
+</div>
+</div></div>        <div class="yorku-featured-widget-wrapper">
+            <div class="yorku-featured-panel-wrapper">
+                            </div>
+        </div>
+        <div id="home" name="home"></div>
+        <div id="content" class="site-content"><div id="primary" class="content-area">
+     <div class="widget_text yu-crumbs"><div class="textwidget custom-html-widget"> </div></div>    <main id="main" class="site-main" role="main">
+        
+<article id="post-2" class="post-2 page type-page status-publish hentry">
+	<header class="entry-header">
+		<h1 class="entry-title">Welcome</h1>	</header><!-- .entry-header -->
+
+	<div class="entry-content">
+		<h1>Welcome</h1>
+<p>Since 1968, the <strong>Faculty of Environmental Studies (FES)</strong> at York University has been at the forefront of cutting edge research, teaching and learning. As the first Environmental Studies program in Canada, we explore the theoretical and practical relationships between the natural, social, artistic and built environments. Offering three innovative programs – <a href="/apply/bes/">Bachelor in Environmental Studies (BES)</a>, <a href="/apply/mes/">Master in Environmental Studies (MES)</a> and <a href="/apply/phd/">Doctorate in Environmental Studies (PhD)</a> – our mandate is to provide unsurpassed opportunities for our students.</p>
+<p>Our vision is to direct and combine the diverse energies, assets and activities of FES as the premier location for interdisciplinary, analytical and collaborative research, education and community action on critical and changing environmental issues.</p>
+
+
+
+<div id="wpv-view-layout-54" class="js-wpv-view-layout js-wpv-layout-responsive js-wpv-view-layout-54" data-viewnumber="54" data-pagination="{&quot;id&quot;:&quot;54&quot;,&quot;base_permalink&quot;:&quot;/?wpv_view_count=54&amp;wpv_paged=WPV_PAGE_NUM&quot;,&quot;query&quot;:&quot;normal&quot;,&quot;type&quot;:&quot;disabled&quot;,&quot;effect&quot;:&quot;fade&quot;,&quot;duration&quot;:500,&quot;speed&quot;:5,&quot;pause_on_hover&quot;:&quot;disabled&quot;,&quot;stop_rollover&quot;:&quot;false&quot;,&quot;cache_pages&quot;:&quot;enabled&quot;,&quot;preload_images&quot;:&quot;enabled&quot;,&quot;preload_pages&quot;:&quot;enabled&quot;,&quot;preload_reach&quot;:1,&quot;spinner&quot;:&quot;builtin&quot;,&quot;spinner_image&quot;:&quot;http://qa.fes.yorku.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif&quot;,&quot;callback_next&quot;:&quot;&quot;,&quot;manage_history&quot;:&quot;disabled&quot;,&quot;has_controls_in_form&quot;:&quot;disabled&quot;,&quot;infinite_tolerance&quot;:&quot;0&quot;,&quot;max_pages&quot;:1,&quot;page&quot;:1,&quot;loop&quot;:{&quot;type&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;data&quot;:[],&quot;id&quot;:0}}" data-permalink="/?wpv_view_count=54">
+ 
+
+<div class="featured-news-wrapper">
+    
+        <div class="featured-news-item-wrapper">
+            <div class="featured-news-title featured-news-left"><a class="featured-news-link" a href="http://qa.fes.yorku.ca/50th/">Celebrating 50 Years of Excellence</a></div>
+            <div class="featured-news-right">
+               
+              		<a class="featured-news-link" a href="http://qa.fes.yorku.ca/50th/">
+                    <div class="featured-news-img-wrapper">
+                      	<img width="1920" height="1280" src="http://qa.fes.yorku.ca/wp-content/uploads/2018/11/50th-Cupcake-Image.jpg" class="attachment-full  featured-news-img wp-post-image" alt="" srcset="http://qa.fes.yorku.ca/wp-content/uploads/2018/11/50th-Cupcake-Image.jpg 1920w, http://qa.fes.yorku.ca/wp-content/uploads/2018/11/50th-Cupcake-Image-300x200.jpg 300w, http://qa.fes.yorku.ca/wp-content/uploads/2018/11/50th-Cupcake-Image-768x512.jpg 768w, http://qa.fes.yorku.ca/wp-content/uploads/2018/11/50th-Cupcake-Image-1024x683.jpg 1024w" sizes="(max-width: 1920px) 100vw, 1920px" />
+                    </div>
+                    <div class="featured-news-excerpt"><p>During the 2018-2019 academic year, we will be celebrating our 50 years of global research impact, dynamic teaching &#038; experiential education, and fostering community participation &#038; engaged citizenship.</p>
+</div>
+                </a>
+            </div>
+        </div>
+    
+</div>
+
+  </div>
+<div class="background-section"></p>
+<h1>News <button onclick="window.location.href='/newsroom'" class="btn btn-default btn-lg pull-right" type="button">Newsroom</button></h1>
+<p>
+
+
+<div id="wpv-view-layout-44-TCPID2" class="js-wpv-view-layout js-wpv-layout-responsive js-wpv-view-layout-44-TCPID2" data-viewnumber="44-TCPID2" data-pagination="{&quot;id&quot;:&quot;44&quot;,&quot;base_permalink&quot;:&quot;/?wpv_view_count=44-TCPID2&amp;wpv_paged=WPV_PAGE_NUM&quot;,&quot;query&quot;:&quot;normal&quot;,&quot;type&quot;:&quot;disabled&quot;,&quot;effect&quot;:&quot;fade&quot;,&quot;duration&quot;:500,&quot;speed&quot;:5,&quot;pause_on_hover&quot;:&quot;disabled&quot;,&quot;stop_rollover&quot;:&quot;false&quot;,&quot;cache_pages&quot;:&quot;enabled&quot;,&quot;preload_images&quot;:&quot;enabled&quot;,&quot;preload_pages&quot;:&quot;enabled&quot;,&quot;preload_reach&quot;:1,&quot;spinner&quot;:&quot;builtin&quot;,&quot;spinner_image&quot;:&quot;http://qa.fes.yorku.ca/wp-content/plugins/wp-views/embedded/res/img/ajax-loader.gif&quot;,&quot;callback_next&quot;:&quot;&quot;,&quot;manage_history&quot;:&quot;disabled&quot;,&quot;has_controls_in_form&quot;:&quot;disabled&quot;,&quot;infinite_tolerance&quot;:&quot;0&quot;,&quot;max_pages&quot;:1,&quot;page&quot;:1,&quot;loop&quot;:{&quot;type&quot;:&quot;&quot;,&quot;name&quot;:&quot;&quot;,&quot;data&quot;:[],&quot;id&quot;:0}}" data-permalink="/?wpv_view_count=44-TCPID2">
+ 
+
+<div class="news-wrapper">
+    
+        <div class="news-item-wrapper">
+            <a class="news-link" a href="http://qa.fes.yorku.ca/news-story/university-students-in-toronto-face-greater-challenges-due-to-unaffordable-housing-long-commutes/">
+                <div class="news-img-wrapper">
+                  <img width="4272" height="2364" src="http://qa.fes.yorku.ca/wp-content/uploads/2019/05/IMG_1162.jpg" class="attachment-full  news-img wp-post-image" alt="" srcset="http://qa.fes.yorku.ca/wp-content/uploads/2019/05/IMG_1162.jpg 4272w, http://qa.fes.yorku.ca/wp-content/uploads/2019/05/IMG_1162-300x166.jpg 300w, http://qa.fes.yorku.ca/wp-content/uploads/2019/05/IMG_1162-768x425.jpg 768w, http://qa.fes.yorku.ca/wp-content/uploads/2019/05/IMG_1162-1024x567.jpg 1024w" sizes="(max-width: 4272px) 100vw, 4272px" />
+                </div>
+                <div class="news-title">University students in Toronto face greater challenges due to unaffordable housing, long commutes</div>
+            </a>
+        </div>
+    
+        <div class="news-item-wrapper">
+            <a class="news-link" a href="http://qa.fes.yorku.ca/news-story/humanitys-ecological-footprint-contracted-between-2014-2016/">
+                <div class="news-img-wrapper">
+                  <img width="6000" height="3011" src="http://qa.fes.yorku.ca/wp-content/uploads/2019/04/Network-and-data-exchange-over-planet-earth-in-space-3D_-alumni_advancement_shutterstock_469801457.jpg" class="attachment-full  news-img wp-post-image" alt="" srcset="http://qa.fes.yorku.ca/wp-content/uploads/2019/04/Network-and-data-exchange-over-planet-earth-in-space-3D_-alumni_advancement_shutterstock_469801457.jpg 6000w, http://qa.fes.yorku.ca/wp-content/uploads/2019/04/Network-and-data-exchange-over-planet-earth-in-space-3D_-alumni_advancement_shutterstock_469801457-300x151.jpg 300w, http://qa.fes.yorku.ca/wp-content/uploads/2019/04/Network-and-data-exchange-over-planet-earth-in-space-3D_-alumni_advancement_shutterstock_469801457-768x385.jpg 768w, http://qa.fes.yorku.ca/wp-content/uploads/2019/04/Network-and-data-exchange-over-planet-earth-in-space-3D_-alumni_advancement_shutterstock_469801457-1024x514.jpg 1024w" sizes="(max-width: 6000px) 100vw, 6000px" />
+                </div>
+                <div class="news-title">Humanity’s Ecological Footprint contracted between 2014-2016</div>
+            </a>
+        </div>
+    
+        <div class="news-item-wrapper">
+            <a class="news-link" a href="http://qa.fes.yorku.ca/news-story/study-lead-by-phd-student-victoria-macphail-reveals-american-bumblebees-should-be-assessed-as-critically-endangered/">
+                <div class="news-img-wrapper">
+                  <img width="780" height="438" src="http://qa.fes.yorku.ca/wp-content/uploads/2019/04/190424160453-american-bumble-bee-exlarge-169.jpg" class="attachment-full  news-img wp-post-image" alt="" srcset="http://qa.fes.yorku.ca/wp-content/uploads/2019/04/190424160453-american-bumble-bee-exlarge-169.jpg 780w, http://qa.fes.yorku.ca/wp-content/uploads/2019/04/190424160453-american-bumble-bee-exlarge-169-300x168.jpg 300w, http://qa.fes.yorku.ca/wp-content/uploads/2019/04/190424160453-american-bumble-bee-exlarge-169-768x431.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" />
+                </div>
+                <div class="news-title">Study lead by PhD student Victoria MacPhail reveals American bumblebees should be assessed as critically endangered</div>
+            </a>
+        </div>
+    
+</div>
+
+  </div></p>
+<p></div>
+<h1>Upcoming Events <button onclick="window.location.href='http://events.qa.fes.yorku.ca/'" class="btn btn-default btn-lg pull-right" type="button">View All Events</button></h1>
+<p><script class="ai1ec-widget-placeholder" data-widget="ai1ec_superwidget" data-no_navigation="true" data-action="posterboard" data-events_limit="8">
+	(function ($) {
+    $(window).load(function () {
+        var d = document,
+            s = d.createElement('script'),
+            i = 'ai1ec-script';
+        if (d.getElementById(i)) return;
+        s.async = 1;
+        s.id = i;
+        s.src = 'http://events.qa.fes.yorku.ca/?ai1ec_js_widget';
+        d.getElementsByTagName('head')[0].appendChild(s);
+    }); 
+})(jQuery);
+</script></p>
+<p><br>
+<div class="background-section"></p>
+<h1>York University’s Land Acknowledgement</h1>
+<p>We recognize that many Indigenous nations have longstanding relationships with the territories upon which York University campuses are located that precede the establishment of York University. York University acknowledges its presence on the traditional territory of many Indigenous Nations. The area known as Tkaronto has been care taken by the Anishinabek Nation, the Haudenosaunee Confederacy, the Wendat, and the Métis. It is now home to many Indigenous Peoples. We acknowledge the current treaty holders and the Mississaugas of the Credit First Nation. This territory is subject of the Dish With One Spoon Wampum Belt Covenant, an agreement to peaceably share and care for the Great Lakes region.
+</div></p>
+	</div><!-- .entry-content -->
+
+	</article><!-- #post-## -->
+
+    </main><!-- #main -->
+</div><!-- #primary -->
+<a href="#top" class="back-to-top"><i class="fa fa-chevron-circle-up fa-3x" aria-hidden="true"></i></a>
+
+
+</div><!-- #content -->
+
+<footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="footer-wrapper">
+        <div class="social-links-bar">
+            <div class="footer-title">Faculty of Environmental Studies</div>
+                            <a aria-label="facebook-link" href="http://www.facebook.com/YorkUFES"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                                        <a aria-label="twitter-link" href="http://twitter.com/EnvironmentYork"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+                                        <a aria-label="instagram-link" href="http://www.instagram.com/environmentyork/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                                        <a aria-label="youtube-link" href="http://www.youtube.com/user/environmentalstudies"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
+                                                    <a aria-label="linkedin-link" href="http://ca.linkedin.com/in/fesalum"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                    </div>
+        <div class="footer-widget-panels">
+            <div class="widget_text footer-panel-widget"><h1>Get In Touch</h1><div class="textwidget custom-html-widget"><div style="text-align: left;">
+Book a 1 on 1 appointment with an Admissions Expert or <!--[wpv-post-body view_template="contact-us-popup"] --> <a href="http://fes.apps01.yorku.ca/machform/view.php?id=99049"> submit a question</a>.
+
+<hr>
+<i class="fa fa-envelope" aria-hidden="true"></i> fesinfo@yorku.ca
+<br/><i class="fa fa-phone-square" aria-hidden="true"></i> (416) 736-5252
+<br/><i class="fas fa-fax"></i>
+(416) 736-5679
+<br/><br/>137 Health Nursing & Environmental Studies Building,
+4700 Keele Street, Toronto, ON
+<br>Canada M3J 1P3
+</div></div></div><div class="widget_text footer-panel-widget"><div class="textwidget custom-html-widget"><iframe title="Faculty Location" src="http://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.0751492474164!2d-79.50652168425351!3d43.7712988528034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e2f6325c2e7%3A0x3146b910c6956cc2!2sHealth%2C+Nursing%2C+and+Environmental+Studies+--+(H.N.E.S)!5e0!3m2!1sen!2sca!4v1519922940161" width="500" height="375" frameborder="0" style="border:0" allowfullscreen></iframe></div></div>        </div>
+        <div class="site-info">
+            Faculty of Environmental Studies, York University Theme 2016.
+        </div><!-- .site-info -->
+        <div class="york-global-footer-links">
+            <ul>
+                <li><a href="http://site.info.yorku.ca/site-index/">Site Index</a></li>
+                <li><a href="http://site.info.yorku.ca/privacy-legal/">Privacy &amp; Legal</a></li>
+                <li><a href="http://about.yorku.ca/careers/">Careers</a></li>
+                <li><a href="http://site.info.yorku.ca/">Contact York University</a></li>
+            </ul>
+        </div>
+    </div>
+</footer><!-- #colophon -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</div><!-- #page -->
+<script type="text/html" id="tmpl-wp-playlist-current-item">
+	<# if ( data.image ) { #>
+	<img src="{{ data.thumb.src }}" alt="" />
+	<# } #>
+	<div class="wp-playlist-caption">
+		<span class="wp-playlist-item-meta wp-playlist-item-title">
+		&#8220;{{ data.title }}&#8221;		</span>
+		<# if ( data.meta.album ) { #><span class="wp-playlist-item-meta wp-playlist-item-album">{{ data.meta.album }}</span><# } #>
+		<# if ( data.meta.artist ) { #><span class="wp-playlist-item-meta wp-playlist-item-artist">{{ data.meta.artist }}</span><# } #>
+	</div>
+</script>
+<script type="text/html" id="tmpl-wp-playlist-item">
+	<div class="wp-playlist-item">
+		<a class="wp-playlist-caption" href="{{ data.src }}">
+			{{ data.index ? ( data.index + '. ' ) : '' }}
+			<# if ( data.caption ) { #>
+				{{ data.caption }}
+			<# } else { #>
+				<span class="wp-playlist-item-title">
+				&#8220;{{{ data.title }}}&#8221;				</span>
+				<# if ( data.artists && data.meta.artist ) { #>
+				<span class="wp-playlist-item-artist"> &mdash; {{ data.meta.artist }}</span>
+				<# } #>
+			<# } #>
+		</a>
+		<# if ( data.meta.length_formatted ) { #>
+		<div class="wp-playlist-item-length">{{ data.meta.length_formatted }}</div>
+		<# } #>
+	</div>
+</script>
+	
+<div id="views-extra-css" style="display:none;" aria-hidden="true">
+/* ----------------------------------------- */
+/* View slug: featured-news - start */
+/* ----------------------------------------- */
+.featured-news-left,
+.featured-news-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.featured-news-left {
+    width: 30%;
+}
+
+.featured-news-right {
+    width: 66.6%;
+    margin: 0 0 0 7px;
+    position: relative;
+    overflow: hidden;
+}
+
+.featured-news-title {
+    text-align: right;
+    padding: 10px 20px 10px 10px;
+    margin: 0 20px 0 0;
+    font-size: 30px;
+    line-height: 1.2em;
+    border-right: 3px solid #e31837;
+}
+
+.featured-news-title a,
+.featured-news-title a:hover{
+    color: #333;
+}
+
+.featured-news-wrapper {
+    margin: 50px 0 0 0;
+}
+
+.featured-news-item-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.featured-news-img {
+    width: 100%;
+    min-width: 375px;
+    -webkit-transition: all .5s; /* Safari */
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.featured-news-img-wrapper {
+    height: 350px;
+    overflow: hidden;
+}
+
+.featured-news-excerpt {
+    position: absolute;
+    width: 100%;
+    color:white;
+    top: 0;
+    padding: 15px;
+    text-align: left;
+    -webkit-transition: all .5s; /* Safari */
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.6+31,0+100 */
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 31%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 31%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 31%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.featured-news-right:hover > .featured-news-link .featured-news-excerpt {
+    margin-top: -50%;
+}
+
+.featured-news-right:hover >  .featured-news-link .featured-news-img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*
+    Added by Omar Hoblos, 8/11/17
+    Added mobile view to featured-news-item-wrapper
+
+*/
+@media (max-width: 960px) {
+    .featured-news-left,
+    .featured-news-right {
+        width: 100%;
+        margin: 0;
+    }
+
+    .featured-news-title {
+        text-align: left;
+        padding: 10px 10px 10px 0;
+        margin: 0 20px 0 0;
+        font-size: 30px;
+        line-height: 1.2em;
+        border-right: none;
+    }
+}
+/* ----------------------------------------- */
+/* View slug: featured-news - end */
+/* ----------------------------------------- */
+/* ----------------------------------------- */
+/* View slug: news - start */
+/* ----------------------------------------- */
+.news-wrapper {
+    margin: 50px 0 50px 0;
+}
+
+.news-item-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.4%;
+    margin: -3px;
+    position: relative;
+    overflow: hidden;
+}
+
+.news-img {
+    width: 100%;
+    min-width: 375px;
+    -webkit-transition: all .5s; 
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.news-img-wrapper {
+    height: 350px;
+    overflow: hidden;
+}
+
+.news-title {
+    position: absolute;
+    width: 100%;
+    color:white;
+    top: 0;
+    padding: 15px;
+    text-align: left;
+    -webkit-transition: all .5s; /* Safari */
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.6+31,0+100 */
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 31%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 31%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 31%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.news-item-wrapper:hover > .news-link .news-title {
+    margin-top: -50%;
+}
+
+.news-item-wrapper:hover > .news-link .news-img {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*
+    Added by Omar Hoblos, 8/11/17
+    Added mobile view to news-item-wrapper
+
+*/
+@media (max-width: 960px){
+    .news-item-wrapper {
+        width: 100%;
+    }
+}
+/* ----------------------------------------- */
+/* View slug: news - end */
+/* ----------------------------------------- */
+</div>
+
+<div id="views-extra-css-ie7" style="display:none;" aria-hidden="true">
+<!--[if IE 7]><style>
+.wpv-pagination { *zoom: 1; }
+</style><![endif]-->
+</div>
+
+<script type="text/javascript">
+jQuery( document ).ready( function( $ ) {
+	var extra_css = $( "#views-extra-css" ) ? $( "#views-extra-css" ).text() : null;	if( extra_css ) {		$( 'head' ).append( '<style>' + extra_css + '</style>' );
+		$( "#views-extra-css" ).remove();	}
+	$( 'head' ).append( $( "#views-extra-css-ie7" ).html() );
+	$( "#views-extra-css-ie7" ).remove();});
+</script>
+
+<div id="ct-extra-css" style="display:none;" aria-hidden="true">
+/* ----------------------------------------- */
+/* Content Template: Loop item in Full Screen Slider - start */
+/* ----------------------------------------- */
+#fifty-logo {
+    position: absolute;
+    width: 80px;
+    margin: 10px;
+    right: 0;
+    bottom: 0;
+    opacity: .8;
+    z-index: 10;
+}
+
+.slide-background-img,
+.slide-background-color,
+.slide-font-color {display: none;}
+
+.slide-wrapper {
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    position:relative;
+}
+
+.slide-overlay {
+    background: black;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    opacity: .35;
+    top: 0;
+    left: 0;
+}
+
+.slide-content {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.slide-heading {
+    font-family: 'interstate','Source Sans Pro','Helvetica','Arial', sans-serif;
+    color: white;
+    font-size: 5em;
+    line-height: .8em;
+    width: 100%;
+    margin: 0 auto 20px auto; 
+    font-weight: bold;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+    word-spacing: 4000px; 
+    -webkit-text-shadow: 1px 2px 11px rgba(0, 0, 0, .6);
+    -moz-text-shadow: 1px 2px 11px rgba(0, 0, 0, .6);
+    -ms-text-shadow: 1px 2px 11px rgba(0, 0, 0, .6);
+    -o-text-shadow: 1px 2px 11px rgba(0, 0, 0, .6);
+    text-shadow: 1px 2px 11px rgba(0, 0, 0, .6);
+}
+
+.slide-sub-heading {
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1em;
+    width: 100%;
+    margin: 40px auto 0 auto; 
+    text-align: center;
+    z-index: 10;
+    position: relative;
+}
+
+.slide-call-to-action-link,
+.slide-call-to-action-link:hover {
+    color: white;
+    position: relative;
+    margin: 20px auto 0 auto;
+    z-index: 10;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.slide-call-to-action {
+    margin: 40px;
+    text-transform: uppercase;
+    font-size: 1em;
+    line-height: 1em;
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    overflow: hidden;
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.slide-call-to-action:hover {
+    background-color: #e31837;
+}
+
+.slide-down-arrow {
+    color: white;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    bottom: 30px;
+    z-index: 10;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+
+.slide-down-arrow:hover,
+.slide-down-arrow:focus,
+.slide-down-arrow:active {
+    text-decoration: none;
+    border-bottom: none;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 900px) {
+ .slide-heading {
+    font-size: 4em;
+  }
+
+  .slide-sub-heading {  
+      font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ .slide-heading {
+    font-size: 2em;
+  }
+
+  .slide-sub-heading {  
+      font-size: .8em;
+    line-height: 1.2em;
+    font-weight: normal;
+    margin: 20px auto 0 auto;
+  }
+  
+  .slide-call-to-action {
+    margin: 20px;
+    font-size: .8em;
+    line-height: 1em;
+    padding: 10px;
+	}
+
+}
+/* ----------------------------------------- */
+/* Content Template: Loop item in Full Screen Slider - end */
+/* ----------------------------------------- */
+</div>
+
+<script type="text/javascript">
+jQuery( document ).ready( function( $ ) {
+		$( 'head' ).append( '<style>' + $( "#ct-extra-css" ).text() + '</style>' );
+		$( "#ct-extra-css" ).remove();});
+</script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-content/plugins/flexy-breadcrumb/public/js/flexy-breadcrumb-public.js?ver=1.0.3'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/js/full-width-tweaks.js?ver=20151215'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/js/navigation.js?ver=20151215'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/js/skip-link-focus-fix.js?ver=20151215'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/js/quick-links.js?ver=20151215'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/js/jquery.smartmenus.min.js?ver=20151215'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/js/jquery.basictable.min.js?ver=20151215'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-content/themes/wp-fes-theme/js/general.js?ver=20151215'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+jQuery(document).ready(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=5.2.1'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-includes/js/underscore.min.js?ver=1.8.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-includes/js/wp-util.min.js?ver=5.2.1'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-includes/js/backbone.min.js?ver=1.2.3'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-includes/js/mediaelement/wp-playlist.min.js?ver=5.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpv_pagination_local = {"front_ajaxurl":"http:\/\/qa.fes.yorku.ca\/wp-admin\/admin-ajax.php","calendar_image":"http:\/\/qa.fes.yorku.ca\/wp-content\/plugins\/wp-views\/embedded\/res\/img\/calendar.gif","calendar_text":"Select date","datepicker_min_date":null,"datepicker_max_date":null,"resize_debounce_tolerance":"100","datepicker_style_url":"http:\/\/qa.fes.yorku.ca\/wp-content\/plugins\/types\/vendor\/toolset\/toolset-common\/toolset-forms\/css\/wpt-jquery-ui\/jquery-ui-1.11.4.custom.css","wpmlLang":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-content/plugins/wp-views/embedded/res/js/wpv-pagination-embedded.js?ver=2.7.3'></script>
+<script type='text/javascript' src='http://qa.fes.yorku.ca/wp-includes/js/wp-embed.min.js?ver=5.2.1'></script>
+
+<script type="text/javascript">
+//-----------------------------------------
+// View slug: featured-news - start
+//-----------------------------------------
+(function ($) {
+    $(window).on("load", function () {
+        var topOffset = ($('.featured-news-img').height() - 350) / -2;
+        $('.featured-news-img').css('margin-top', topOffset);
+    });
+})(jQuery);
+ 
+//-----------------------------------------
+// View slug: featured-news - end
+//-----------------------------------------
+//-----------------------------------------
+// View slug: news - start
+//-----------------------------------------
+(function ($) {
+    $(window).on("load", function () {
+        $('.news-img').each(function () {
+            if ($('.news-img-wrapper').height() > $(this).height()) {
+                $(this).css('height', '100%');
+                $(this).css('width', 'auto');
+                $(this).css('max-width', '200%');
+            }
+            var topOffset = ($(this).height() - 350) / -2; 
+            $(this).css('margin-top', topOffset);
+        });   
+    });
+})(jQuery);
+ 
+//-----------------------------------------
+// View slug: news - end
+//-----------------------------------------
+</script>
+
+<script type="text/javascript">
+//-----------------------------------------
+// Content Template: Loop item in Full Screen Slider - start
+//-----------------------------------------
+(function ($) {
+    $(document).ready(function () {
+        $('.slide-down-arrow').on('click', function (e) {
+            e.preventDefault();
+
+            var target = this.hash;
+            var target2 = $(target);
+
+            $('html, body').stop().animate({
+                'scrollTop': target2.offset().top - 48
+            }, 900, 'swing', function () {
+            });
+        });
+    });
+
+    $(window).load(function () {
+        var backgroundImg = $('.slide-background-img').text().replace('http://', 'http://');
+        var backgroundColor = $('.slide-background-color').text();
+        var fontColor = $('.slide-font-color').text();
+        $('.slide-wrapper').css('background-color', backgroundColor);
+        if (backgroundImg != '') {
+            $('.slide-wrapper').css('background-image', 'url(' + backgroundImg + ')');
+        } else {
+            $('.slide-overlay').css('display', 'none');
+        }
+
+        if (fontColor != '') {
+            $('.slide-heading').css('color', fontColor);
+            $('.slide-sub-heading').css('color', fontColor);
+            $('.slide-call-to-action-link').css('color', fontColor);
+            $('.slide-call-to-action').css('color', fontColor);
+        }
+
+        setSliderHeight();
+        centerSliderContent();
+      
+        $('.slide-content').fadeIn();
+        $('.slide-down-arrow').fadeIn();
+    });
+
+    $(window).resize(function () {
+        setSliderHeight();
+        centerSliderContent();
+    });
+
+    function setSliderHeight() {
+        var backgroundHeight = 100 - ($('.slide-wrapper').offset().top / $(window).height() * 100);
+        $('.slide-wrapper').css('height', backgroundHeight + 'vh');
+        $('.slide-wrapper').css('width', '100wh');
+    }
+
+    function centerSliderContent() {
+        var sliderHeigh = $('.slide-wrapper').height();
+        var sliderContentHeigh = $('.slide-content').height();
+        var sliderContentTop = (sliderHeigh / 2) - (sliderContentHeigh / 2);
+        $('.slide-content').css('top', sliderContentTop);
+    }
+
+})(jQuery);
+//-----------------------------------------
+// Content Template: Loop item in Full Screen Slider - end
+//-----------------------------------------
+</script>
+</body>
+</html>
