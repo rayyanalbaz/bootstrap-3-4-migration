@@ -17,6 +17,11 @@
 <div class="wrap">
     <h1><?php echo esc_html(get_admin_page_title()); ?></h1>
 </div>
-<?php
-
+<div class="wrap">
+<?php 
+    require __DIR__.'../../class-bootstrap-3-4-migration-admin-table.php';
+    $report_table = new bootstrap_migration_report_table();
+    $report_table->prepare_items();
+    $report_table->display();
 ?>
+</div>
