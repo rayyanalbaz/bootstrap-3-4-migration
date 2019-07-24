@@ -413,25 +413,31 @@ class bootstrap_migration
         if ($post) {
             $post_id       = $post->ID;
             $thing_content = get_post_field('post_content', $post_id);
-            error_log($thing_content);
-            
+
             $dictionary = $this->read_all();
             require_once('simple_html_dom.php');
             $html = str_get_html($thing_content);
-            
+
             if ($html) {
-                for ($i = 0; $i < sizeof($dictionary); $i++) {
-                    $find = $html->find('.' . $dictionary[$i]["old"]);
-                    
+                $counter = 0;
+
+                foreach ($dictionary as $entry) {
+                    $to_replace = '.' . $entry["old"];
+                    $find = $html->find($to_replace);
+                    //var_dump($to_replace);
                     foreach ($find as $element) {
-                        if ($element->class == $dictionary[$i]["old"]) {
-                            $element->class = $dictionary[$i]["new"];
-                            $this->report_change($post_id, $dictionary[$i]["old"], $dictionary[$i]["new"]);
+                        var_dump($element->class);
+                        var_dump($entry["old"]);
+                        if(sizeof($find) > 0){
+                            $string = $element->class;
+                            $element->class = str_replace($entry["old"], $entry["new"], $string);
+                            $this->report_change($post_id, $entry["old"], $entry["new"]);
                         }
                     }
+                    
                 }
+
                 $str = $html->save();
-                error_log($str);
                 return $str;
             }
         }
