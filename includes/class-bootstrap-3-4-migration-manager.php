@@ -70,7 +70,7 @@ class bootstrap_migration
                 old varchar(100) NOT NULL,
                 new varchar(100) NOT NULL,
                 time_created varchar(50) NOT NULL,
-                created_by varchar(50) NOT NULL,
+                created_by varchar(50) NULL,
                 UNIQUE KEY id (id)
             ) $charset_collate;";
             require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
