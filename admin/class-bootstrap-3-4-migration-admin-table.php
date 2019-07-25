@@ -22,7 +22,8 @@ class bootstrap_migration_report_table extends WP_List_Table
     public function column_default($item, $column_name)
     {
         switch( $column_name ) { 
-            case 'post_id':
+            case 'post_title':
+            case 'delta_counter':
             case 'old':
             case 'new':
             case 'created_by':
@@ -34,7 +35,8 @@ class bootstrap_migration_report_table extends WP_List_Table
 
     public function get_columns(){
         $columns = array(
-          'post_id' => 'Post ID',
+          'post_title' => 'Post Title',
+          'delta_counter' => 'Delta',
           'old'    => 'Old Class',
           'new'      => 'New Class',
           'created_by' => 'Created By'
