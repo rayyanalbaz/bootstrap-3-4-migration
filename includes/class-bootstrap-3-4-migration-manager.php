@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The file that defines the core plugin class
  *
@@ -27,10 +28,9 @@
  */
 class bootstrap_migration
 {
-    
+
     public function __construct()
-    {
-    }
+    { }
     /**
      * initialize the table in the database if it doesn't exists.
      *
@@ -41,11 +41,11 @@ class bootstrap_migration
         global $wpdb;
         $dictionary_name = $wpdb->prefix . 'bootstrap_dictionary';
         $report_name     = $wpdb->prefix . 'migration_report';
-        
+
         if ($wpdb->get_var("SHOW TABLES LIKE '$dictionary_name'") != $dictionary_name) {
             //if table not in database. Create new table
             $charset_collate = $wpdb->get_charset_collate();
-            
+
             $sql = "CREATE TABLE $dictionary_name (
                 id mediumint(9) NOT NULL AUTO_INCREMENT,
                 old varchar(100) NOT NULL,
@@ -267,14 +267,15 @@ class bootstrap_migration
             ";
             dbDelta($sql_insert);
         }
-        
+
         if ($wpdb->get_var("SHOW TABLES LIKE '$report_name'") != $report_name) {
             //if table not in database. Create new table
             $charset_collate = $wpdb->get_charset_collate();
-            
+
             $sql = "CREATE TABLE $report_name (
                 id mediumint(9) NOT NULL AUTO_INCREMENT,
-                post_id mediumint(9) NOT NULL,
+                post_title varchar(100) NOT NULL,
+                delta_counter int(10) NOT NULL,
                 old varchar(100) NOT NULL,
                 new varchar(100) NOT NULL,
                 time_created varchar(50) NOT NULL,
@@ -320,7 +321,7 @@ class bootstrap_migration
         $table_name   = $wpdb->prefix . 'bootstrap_dictionary';
         $time         = time();
         $current_user = wp_get_current_user();
-        
+
         $result = $wpdb->query("SELECT id FROM $table_name WHERE old = '$old'");
         if ($result == 0) {
             $sql = "INSERT INTO $table_name ( old, new, created, last_modified, created_by )
@@ -376,7 +377,7 @@ class bootstrap_migration
         $table_name   = $wpdb->prefix . 'bootstrap_dictionary';
         $time         = time();
         $current_user = wp_get_current_user();
-        
+
         $sql = "UPDATE $table_name
         SET old = '$old', new= '$new', last_modified = '$time', updated_by = '$current_user->user_login'
         WHERE id = '$id';";
@@ -387,18 +388,18 @@ class bootstrap_migration
      *
      * @since    1.0.0
      */
-    public function report_change($page_id, $old, $new)
+    public function report_change($page_id, $old, $new ,$delta)
     {
         require_once(ABSPATH . 'wp-includes/pluggable.php');
         global $wpdb;
         $table_name   = $wpdb->prefix . 'migration_report';
         $time         = time();
         $current_user = wp_get_current_user();
-        
+        $page_title = get_the_title($page_id);
         $result = $wpdb->query("SELECT id FROM $table_name WHERE old = '$old'");
         if ($result == 0) {
-            $sql = "INSERT INTO $table_name ( post_id, old, new, time_created, created_by )
-            VALUES ( '$page_id', '$old', '$new', '$time', '$current_user->user_login');";
+            $sql = "INSERT INTO $table_name ( post_id,post_title, delta_counter, old, new, time_created, created_by )
+            VALUES ( '$page_id','$page_title','$delta', '$old', '$new', '$time', '$current_user->user_login');";
             $wpdb->query($sql);
         }
     }
@@ -412,32 +413,29 @@ class bootstrap_migration
         global $post;
         if ($post) {
             $post_id       = $post->ID;
-            $thing_content = get_post_field('post_content', $post_id);
+            $content = get_post_field('post_content', $post_id);
 
             $dictionary = $this->read_all();
             require_once('simple_html_dom.php');
-            $html = str_get_html($thing_content);
+            $html = str_get_html($content);
+            error_log($html);
 
             if ($html) {
-                $counter = 0;
-
                 foreach ($dictionary as $entry) {
+                    $delta = 0;
                     $to_replace = '.' . $entry["old"];
                     $find = $html->find($to_replace);
-                    //var_dump($to_replace);
                     foreach ($find as $element) {
-                        var_dump($element->class);
-                        var_dump($entry["old"]);
                         if(sizeof($find) > 0){
+                            $delta = sizeof($find);
                             $string = $element->class;
                             $element->class = str_replace($entry["old"], $entry["new"], $string);
-                            $this->report_change($post_id, $entry["old"], $entry["new"]);
+                            $this->report_change($post_id, $entry["old"], $entry["new"], $delta);
                         }
                     }
-                    
                 }
-
                 $str = $html->save();
+                // error_log($str);
                 return $str;
             }
         }
