@@ -310,6 +310,12 @@ class bootstrap_migration
             $wpdb->query($sql);
         }
     }
+    public function empty_table(){
+        global $wpdb;
+        $report_table_name = $wpdb->prefix . 'migration_report';
+        $sql = "TRUNCATE `$report_table_name`";
+        $wpdb->query($sql);
+    }
     /**
      * Adds an entry to the dictionary.
      *

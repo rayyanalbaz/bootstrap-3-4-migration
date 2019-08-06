@@ -25,3 +25,9 @@
     $report_table->display();
 ?>
 </div>
+
+<div>
+    <?php
+    
+    ?>
+</div>

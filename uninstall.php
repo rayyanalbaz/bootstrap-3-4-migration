@@ -27,7 +27,7 @@
 
 // If uninstall not called from WordPress, then exit.
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
-	$bootsrap_init = new bootstrap_migration();
-	$bootsrap_init->delete_table();
 	exit;
 }
+$bootsrap_init = new bootstrap_migration();
+$bootsrap_init->delete_table();
