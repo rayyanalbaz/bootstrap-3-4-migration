@@ -274,6 +274,7 @@ class bootstrap_migration
 
             $sql = "CREATE TABLE $report_name (
                 id mediumint(9) NOT NULL AUTO_INCREMENT,
+                post_id varchar(100) NOT NULL,
                 post_title varchar(100) NOT NULL,
                 delta_counter int(10) NOT NULL,
                 old varchar(100) NOT NULL,
