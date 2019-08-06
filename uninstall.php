@@ -29,5 +29,18 @@
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
 	exit;
 }
-$bootsrap_init = new bootstrap_migration();
-$bootsrap_init->delete_table();
+global $wpdb;
+$table_name = $wpdb->prefix . 'bootstrap_dictionary';
+if ($wpdb->get_var("SHOW TABLES LIKE '$table_name'") == $table_name) {
+	//if table in database. Delete table.
+	global $wpdb;
+	$sql = "DROP TABLE IF EXISTS $table_name;";
+	$wpdb->query($sql);
+}
+$report_table_name = $wpdb->prefix . 'migration_report';
+if ($wpdb->get_var("SHOW TABLES LIKE '$report_table_name'") == $report_table_name) {
+	//if table in database. Delete table.
+	global $wpdb;
+	$sql = "DROP TABLE IF EXISTS $report_table_name;";
+	$wpdb->query($sql);
+}
