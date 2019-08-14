@@ -162,7 +162,7 @@ class Bootstrap_3_4_Migration {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 		$this->loader->add_action( 'admin_menu', $plugin_admin, 'display_admin_page' );
-		$this->loader->add_filter('wp_head', $plugin_admin, 'invoke_upgrade');
+		$this->loader->add_filter('the_content', $plugin_admin, 'invoke_upgrade');
 	}
 
 	/**
