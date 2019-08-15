@@ -281,6 +281,7 @@ class bootstrap_migration
                 new varchar(100) NOT NULL,
                 time_created varchar(50) NOT NULL,
                 created_by varchar(50) NULL,
+                status varchar(50) NULL default 'unchanged',
                 UNIQUE KEY id (id)
             ) $charset_collate;";
             require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
@@ -446,5 +447,50 @@ class bootstrap_migration
                 return $str;
             }
         }
+    }
+
+    public function update_class($id){
+		global $wpdb;
+		$table_name = $wpdb->prefix . 'migration_report';
+        $query = "SELECT * FROM $table_name WHERE id = '$id'";
+        $result = $wpdb->get_row($query, ARRAY_A);
+        $content = get_post_field('post_content', $result['post_id']);
+        $modified_content = str_replace($result['old'],$result['new'],$content);
+        $updated_post = array(
+            'ID' => $result['post_id'],
+            'post_content' => $modified_content,
+        );
+        wp_update_post($updated_post, true);
+        if (is_wp_error($result['post_id'])) {
+            $errors = $result['post_id']->get_error_messages();
+            foreach ($errors as $error) {
+                echo $error;
+            }
+        }
+
+        $sql = "UPDATE $table_name SET status = 'updated' WHERE id = '$id';";
+        $wpdb->query($sql);
+    }
+    
+    public function revert_class($id){
+        global $wpdb;
+		$table_name = $wpdb->prefix . 'migration_report';
+        $query = "SELECT * FROM $table_name WHERE id = '$id'";
+        $result = $wpdb->get_row($query, ARRAY_A);
+        $content = get_post_field('post_content', $result['post_id']);
+        $modified_content = str_replace($result['new'],$result['old'],$content);
+        $updated_post = array(
+            'ID' => $result['post_id'],
+            'post_content' => $modified_content,
+        );
+        wp_update_post($updated_post, true);
+        if (is_wp_error($result['post_id'])) {
+            $errors = $result['post_id']->get_error_messages();
+            foreach ($errors as $error) {
+                echo $error;
+            }
+        }
+		$sql = "UPDATE $table_name SET status = 'reverted' WHERE id = '$id';";
+        $wpdb->query($sql);
     }
 }
