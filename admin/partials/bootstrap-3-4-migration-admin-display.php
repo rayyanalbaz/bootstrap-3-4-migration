@@ -18,21 +18,20 @@
 if (!empty($_GET['message'])) {
     if ($_GET['message'] == 1) {
         ?>
-        <div class="notice notice-success is-dismissible">
-            <p>
-                <?php echo 'Class has been updated.' ?>
-            </p>
-        </div>
-    <?php
-    }
-    else if ($_GET['message'] == 2) {
+<div class="notice notice-success is-dismissible">
+    <p>
+        <?php echo 'Class has been updated.' ?>
+    </p>
+</div>
+<?php
+    } else if ($_GET['message'] == 2) {
         ?>
-        <div class="notice notice-error is-dismissible">
-            <p>
-                <?php echo 'Class has been reverted.' ?>
-            </p>
-        </div>
-    <?php
+<div class="notice notice-warning is-dismissible">
+    <p>
+        <?php echo 'Class has been reverted.' ?>
+    </p>
+</div>
+<?php
     }
 }
 ?>

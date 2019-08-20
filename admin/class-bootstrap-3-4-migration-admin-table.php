@@ -88,7 +88,7 @@ class bootstrap_migration_report_table extends WP_List_Table
         $actions = array(
             'edit' => '<a href="' . site_url() . '/wp-admin/post.php?post=' . (int) $item['post_id'] . '&action=edit">Edit</a>',
             'update' => sprintf('<a style="color: green;" href="?page=%s&action=%s&id=%s&_wpnonce=%s&message=%s">Update</a>', esc_attr($_REQUEST['page']), 'update', absint($item['id']), $update_nonce, 1),
-            'revert' => sprintf('<a style="color: red;" href="?page=%s&action=%s&id=%s&_wpnonce=%s&message=%s">Revert</a>', esc_attr($_REQUEST['page']), 'revert', absint($item['id']), $revert_nonce,2),
+            'revert' => sprintf('<a style="color: red;" href="?page=%s&action=%s&id=%s&_wpnonce=%s&message=%s">Revert</a>', esc_attr($_REQUEST['page']), 'revert', absint($item['id']), $revert_nonce, 2),
         );
         if ($item['status'] == 'updated') {
             unset($actions['update']);
@@ -214,7 +214,7 @@ class bootstrap_migration_report_table extends WP_List_Table
             $invoke_update = new bootstrap_migration();
             $invoke_update->revert_class(esc_attr($_GET[$this->_args['singular']]));
         }
-        
+
         // If the update bulk action is triggered, verify which bulk action it is.
         if ((isset($_POST['action']) && $_POST['action'] == 'bulk-update') || (isset($_POST['action2']) && $_POST['action2'] == 'bulk-update')) {
 
