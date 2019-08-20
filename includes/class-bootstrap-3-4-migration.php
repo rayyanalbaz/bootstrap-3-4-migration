@@ -25,7 +25,7 @@
  * @since      1.0.0
  * @package    Bootstrap_3_4_Migration
  * @subpackage Bootstrap_3_4_Migration/includes
- * @author     Calin Armenean <calin13@yorku.ca>
+ * @author     Rayyan Albaz
  */
 class Bootstrap_3_4_Migration
 {

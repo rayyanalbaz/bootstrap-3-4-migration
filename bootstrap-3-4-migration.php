@@ -17,7 +17,7 @@
  * Plugin URI:        https://bitbucket.org/1101c/bootstrap-3-4-migration/
  * Description:       This tool identifies all the classes that use Bootstrap 3.3.7 with the corresponding updated class in Bootstrap 4.
  * Version:           1.0.0
- * Author:            Calin Armenean
+ * Author:            Rayyan Albaz
  * Author URI:        https://bitbucket.org/1101c/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt

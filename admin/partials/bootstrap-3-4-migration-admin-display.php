@@ -22,6 +22,11 @@
     require __DIR__ . '../../class-bootstrap-3-4-migration-admin-table.php';
     $report_table = new bootstrap_migration_report_table();
     $report_table->prepare_items();
-    $report_table->display();
     ?>
+    <form id="users-settings" method="POST">
+        <!-- For plugins, we also need to ensure that the form posts back to our current page -->
+        <input type="hidden" name="page" value="<?php echo $_REQUEST['page'] ?>" />
+        <!-- Now we can render the completed list table -->
+        <?php $report_table->display(); ?>
+    </form>
 </div>

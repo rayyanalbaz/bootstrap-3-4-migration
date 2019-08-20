@@ -57,13 +57,13 @@ class bootstrap_migration_report_table extends WP_List_Table
                 return $item['created_by'];
 
             case 'status':
-            if ($item['status'] == 'updated') {
-                return '<span style="color: green;">'.ucfirst($item['status']).'</span>';
-            }else if ($item['status'] == 'reverted'){
-                return '<span style="color: red;">'.ucfirst($item['status']).'</span>';
-            }else if ($item['status'] == 'unchanged') {
-                return '<span style="color: orange;">'.ucfirst($item['status']).'</span>';
-            }
+                if ($item['status'] == 'updated') {
+                    return '<span style="color: green;">' . ucfirst($item['status']) . '</span>';
+                } else if ($item['status'] == 'reverted') {
+                    return '<span style="color: red;">' . ucfirst($item['status']) . '</span>';
+                } else if ($item['status'] == 'unchanged') {
+                    return '<span style="color: orange;">' . ucfirst($item['status']) . '</span>';
+                }
 
             default:
                 //Show the whole array for troubleshooting purposes
@@ -90,9 +90,11 @@ class bootstrap_migration_report_table extends WP_List_Table
             'update' => sprintf('<a style="color: green;" href="?page=%s&action=%s&id=%s&_wpnonce=%s">Update</a>', esc_attr($_REQUEST['page']), 'update', absint($item['id']), $update_nonce),
             'revert' => sprintf('<a style="color: red;" href="?page=%s&action=%s&id=%s&_wpnonce=%s">Revert</a>', esc_attr($_REQUEST['page']), 'revert', absint($item['id']), $revert_nonce),
         );
-        if($item['status'] == 'updated'){
+        if ($item['status'] == 'updated') {
             unset($actions['update']);
-        }else if($item['status'] == 'reverted'){
+        } else if ($item['status'] == 'reverted') {
+            unset($actions['revert']);
+        } else if ($item['status'] == 'unchanged') {
             unset($actions['revert']);
         }
 
@@ -172,7 +174,10 @@ class bootstrap_migration_report_table extends WP_List_Table
      */
     function get_bulk_actions()
     {
-        $actions = array();
+        $actions = array(
+            'bulk-update' => 'Update',
+            'bulk-revert' => 'Revert'
+        );
         return $actions;
     }
 
@@ -209,16 +214,30 @@ class bootstrap_migration_report_table extends WP_List_Table
             $invoke_update = new bootstrap_migration();
             $invoke_update->revert_class(esc_attr($_GET[$this->_args['singular']]));
         }
+        
+        // If the update bulk action is triggered, verify which bulk action it is.
+        if ((isset($_POST['action']) && $_POST['action'] == 'bulk-update') || (isset($_POST['action2']) && $_POST['action2'] == 'bulk-update')) {
 
-        // If the delete bulk action is triggered, verify which bulk action it is.
-        if ((isset($_POST['action']) && $_POST['action'] == 'bulk-delete') || (isset($_POST['action2']) && $_POST['action2'] == 'bulk-delete')
-        ) {
-
-            // Get the it's from the $_REQUEST. If they are an array, call the delete method for each.
+            // Get the ids from the $_REQUEST. If they are an array, call the delete method for each.
             $ids = isset($_REQUEST[$this->_args['singular']]) ? $_REQUEST[$this->_args['singular']] : array();
             if (is_array($ids)) {
                 foreach ($ids as $id) {
-                    self::delete_user_access($id);
+                    $invoke_update = new bootstrap_migration();
+                    $invoke_update->update_class($id);
+                }
+            }
+        }
+
+        // If the revert bulk action is triggered, verify which bulk action it is.
+        if ((isset($_POST['action']) && $_POST['action'] == 'bulk-revert') || (isset($_POST['action2']) && $_POST['action2'] == 'bulk-revert')
+        ) {
+            error_log("here");
+            // Get the ids from the $_REQUEST. If they are an array, call the delete method for each.
+            $ids = isset($_REQUEST[$this->_args['singular']]) ? $_REQUEST[$this->_args['singular']] : array();
+            if (is_array($ids)) {
+                foreach ($ids as $id) {
+                    $invoke_update = new bootstrap_migration();
+                    $invoke_update->revert_class($id);
                 }
             }
         }
