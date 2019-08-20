@@ -425,16 +425,16 @@ class bootstrap_migration
      */
     public function upgrade_class()
     {
-        global $wpdb ; 
+        global $wpdb;
         $querystr = "SELECT * FROM $wpdb->posts";
-        foreach( $wpdb->get_results($querystr) as $key => $row) {
-            if($row->post_type == 'page'){
+        foreach ($wpdb->get_results($querystr) as $key => $row) {
+            if ($row->post_type == 'page') {
                 $post_id = $row->ID;
                 $content = $row->post_content;
                 $dictionary = $this->read_all();
                 require_once('simple_html_dom.php');
                 $html = str_get_html($content);
-                
+
                 if ($html) {
                     foreach ($dictionary as $entry) {
                         $delta = 0;
@@ -451,7 +451,7 @@ class bootstrap_migration
                     }
                 }
             }
-        }   
+        }
     }
     /**
      * Updates the class to NEW value from the database dictionary in the post database.

@@ -57,7 +57,13 @@ class bootstrap_migration_report_table extends WP_List_Table
                 return $item['created_by'];
 
             case 'status':
-                return $item['status'];
+            if ($item['status'] == 'updated') {
+                return '<span style="color: green;">'.ucfirst($item['status']).'</span>';
+            }else if ($item['status'] == 'reverted'){
+                return '<span style="color: red;">'.ucfirst($item['status']).'</span>';
+            }else if ($item['status'] == 'unchanged') {
+                return '<span style="color: orange;">'.ucfirst($item['status']).'</span>';
+            }
 
             default:
                 //Show the whole array for troubleshooting purposes
@@ -81,9 +87,14 @@ class bootstrap_migration_report_table extends WP_List_Table
         //Build row actions. These are the actions that appear when you hover over the row
         $actions = array(
             'edit' => '<a href="' . site_url() . '/wp-admin/post.php?post=' . (int) $item['post_id'] . '&action=edit">Edit</a>',
-            'update' => sprintf('<a href="?page=%s&action=%s&id=%s&_wpnonce=%s">Update</a>', esc_attr($_REQUEST['page']), 'update', absint($item['id']), $update_nonce),
-            'revert' => sprintf('<a href="?page=%s&action=%s&id=%s&_wpnonce=%s">Revert</a>', esc_attr($_REQUEST['page']), 'revert', absint($item['id']), $revert_nonce),
+            'update' => sprintf('<a style="color: green;" href="?page=%s&action=%s&id=%s&_wpnonce=%s">Update</a>', esc_attr($_REQUEST['page']), 'update', absint($item['id']), $update_nonce),
+            'revert' => sprintf('<a style="color: red;" href="?page=%s&action=%s&id=%s&_wpnonce=%s">Revert</a>', esc_attr($_REQUEST['page']), 'revert', absint($item['id']), $revert_nonce),
         );
+        if($item['status'] == 'updated'){
+            unset($actions['update']);
+        }else if($item['status'] == 'reverted'){
+            unset($actions['revert']);
+        }
 
         //Return the title contents
         return sprintf(

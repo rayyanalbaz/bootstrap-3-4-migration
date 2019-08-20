@@ -17,7 +17,7 @@
 <div class="wrap">
     <h1><?php echo esc_html(get_admin_page_title()); ?></h1>
     <p>This tool identifies all the classes that use Bootstrap 3.37 with the corresponding updated class in Bootstrap 4.</p>
-    <p>You can <b>Update</b> or <b>Revert</b> a class using the buttons.</p>
+    <p>You can <b style="color: green;">Update</b> or <b style="color: red;">Revert</b> a class using the buttons.</p>
     <?php
     require __DIR__ . '../../class-bootstrap-3-4-migration-admin-table.php';
     $report_table = new bootstrap_migration_report_table();
