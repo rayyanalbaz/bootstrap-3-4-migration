@@ -87,8 +87,8 @@ class bootstrap_migration_report_table extends WP_List_Table
         //Build row actions. These are the actions that appear when you hover over the row
         $actions = array(
             'edit' => '<a href="' . site_url() . '/wp-admin/post.php?post=' . (int) $item['post_id'] . '&action=edit">Edit</a>',
-            'update' => sprintf('<a style="color: green;" href="?page=%s&action=%s&id=%s&_wpnonce=%s">Update</a>', esc_attr($_REQUEST['page']), 'update', absint($item['id']), $update_nonce),
-            'revert' => sprintf('<a style="color: red;" href="?page=%s&action=%s&id=%s&_wpnonce=%s">Revert</a>', esc_attr($_REQUEST['page']), 'revert', absint($item['id']), $revert_nonce),
+            'update' => sprintf('<a style="color: green;" href="?page=%s&action=%s&id=%s&_wpnonce=%s&message=%s">Update</a>', esc_attr($_REQUEST['page']), 'update', absint($item['id']), $update_nonce, 1),
+            'revert' => sprintf('<a style="color: red;" href="?page=%s&action=%s&id=%s&_wpnonce=%s&message=%s">Revert</a>', esc_attr($_REQUEST['page']), 'revert', absint($item['id']), $revert_nonce,2),
         );
         if ($item['status'] == 'updated') {
             unset($actions['update']);
@@ -231,7 +231,6 @@ class bootstrap_migration_report_table extends WP_List_Table
         // If the revert bulk action is triggered, verify which bulk action it is.
         if ((isset($_POST['action']) && $_POST['action'] == 'bulk-revert') || (isset($_POST['action2']) && $_POST['action2'] == 'bulk-revert')
         ) {
-            error_log("here");
             // Get the ids from the $_REQUEST. If they are an array, call the delete method for each.
             $ids = isset($_REQUEST[$this->_args['singular']]) ? $_REQUEST[$this->_args['singular']] : array();
             if (is_array($ids)) {

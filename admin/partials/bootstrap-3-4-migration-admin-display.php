@@ -13,6 +13,29 @@
  */
 ?>
 
+<?php
+
+if (!empty($_GET['message'])) {
+    if ($_GET['message'] == 1) {
+        ?>
+        <div class="notice notice-success is-dismissible">
+            <p>
+                <?php echo 'Class has been updated.' ?>
+            </p>
+        </div>
+    <?php
+    }
+    else if ($_GET['message'] == 2) {
+        ?>
+        <div class="notice notice-error is-dismissible">
+            <p>
+                <?php echo 'Class has been reverted.' ?>
+            </p>
+        </div>
+    <?php
+    }
+}
+?>
 <!-- This file should primarily consist of HTML with a little bit of PHP. -->
 <div class="wrap">
     <h1><?php echo esc_html(get_admin_page_title()); ?></h1>
@@ -22,6 +45,7 @@
     require __DIR__ . '../../class-bootstrap-3-4-migration-admin-table.php';
     $report_table = new bootstrap_migration_report_table();
     $report_table->prepare_items();
+
     ?>
     <form id="users-settings" method="POST">
         <!-- For plugins, we also need to ensure that the form posts back to our current page -->
