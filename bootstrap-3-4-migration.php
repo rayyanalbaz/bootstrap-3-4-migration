@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Bootstrap 3 to 4 Migration 
  * Plugin URI:        https://bitbucket.org/1101c/bootstrap-3-4-migration/
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       This tool identifies all the classes that use Bootstrap 3.3.7 with the corresponding updated class in Bootstrap 4.
  * Version:           1.0.0
  * Author:            Calin Armenean
  * Author URI:        https://bitbucket.org/1101c/
