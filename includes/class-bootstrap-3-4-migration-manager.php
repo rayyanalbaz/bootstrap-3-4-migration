@@ -425,35 +425,33 @@ class bootstrap_migration
      */
     public function upgrade_class()
     {
-        global $post;
-        if ($post) {
-            $post_id       = $post->ID;
-            $content = get_post_field('post_content', $post_id);
-
-            $dictionary = $this->read_all();
-            require_once('simple_html_dom.php');
-            $html = str_get_html($content);
-            // error_log($html);
-
-            if ($html) {
-                foreach ($dictionary as $entry) {
-                    $delta = 0;
-                    $to_replace = '.' . $entry["old"];
-                    $find = $html->find($to_replace);
-                    foreach ($find as $element) {
-                        if (sizeof($find) > 0) {
-                            $delta = sizeof($find);
-                            $string = $element->class;
-                            $element->class = str_replace($entry["old"], $entry["new"], $string);
-                            $this->report_change($post_id, $entry["old"], $entry["new"], $delta);
+        global $wpdb ; 
+        $querystr = "SELECT * FROM $wpdb->posts";
+        foreach( $wpdb->get_results($querystr) as $key => $row) {
+            if($row->post_type == 'page'){
+                $post_id = $row->ID;
+                $content = $row->post_content;
+                $dictionary = $this->read_all();
+                require_once('simple_html_dom.php');
+                $html = str_get_html($content);
+                
+                if ($html) {
+                    foreach ($dictionary as $entry) {
+                        $delta = 0;
+                        $to_replace = '.' . $entry["old"];
+                        $find = $html->find($to_replace);
+                        foreach ($find as $element) {
+                            if (sizeof($find) > 0) {
+                                $delta = sizeof($find);
+                                $string = $element->class;
+                                $element->class = str_replace($entry["old"], $entry["new"], $string);
+                                $this->report_change($post_id, $entry["old"], $entry["new"], $delta);
+                            }
                         }
                     }
                 }
-                $str = $html->save();
-                // error_log($str);
-                return $str;
             }
-        }
+        }   
     }
     /**
      * Updates the class to NEW value from the database dictionary in the post database.

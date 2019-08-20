@@ -32,6 +32,7 @@ class Bootstrap_3_4_Migration_Activator {
 	public static function activate() {
 		$bootsrap_init = new bootstrap_migration();
 		$bootsrap_init->initialize_table();
+		$bootsrap_init->upgrade_class();
 	}
 
 }

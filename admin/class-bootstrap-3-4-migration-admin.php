@@ -131,6 +131,6 @@ class Bootstrap_3_4_Migration_Admin
 	public static function invoke_upgrade()
 	{
 		$migration_manager = new bootstrap_migration();
-		return $migration_manager->upgrade_class();
+		$migration_manager->upgrade_class();
 	}
 }
