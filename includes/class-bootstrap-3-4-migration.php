@@ -27,7 +27,8 @@
  * @subpackage Bootstrap_3_4_Migration/includes
  * @author     Calin Armenean <calin13@yorku.ca>
  */
-class Bootstrap_3_4_Migration {
+class Bootstrap_3_4_Migration
+{
 
 	/**
 	 * The loader that's responsible for maintaining and registering all hooks that power
@@ -66,8 +67,9 @@ class Bootstrap_3_4_Migration {
 	 *
 	 * @since    1.0.0
 	 */
-	public function __construct() {
-		if ( defined( 'BOOTSTRAP_3_4_MIGRATION_VERSION' ) ) {
+	public function __construct()
+	{
+		if (defined('BOOTSTRAP_3_4_MIGRATION_VERSION')) {
 			$this->version = BOOTSTRAP_3_4_MIGRATION_VERSION;
 		} else {
 			$this->version = '1.0.0';
@@ -78,7 +80,6 @@ class Bootstrap_3_4_Migration {
 		$this->set_locale();
 		$this->define_admin_hooks();
 		$this->define_public_hooks();
-
 	}
 
 	/**
@@ -97,30 +98,31 @@ class Bootstrap_3_4_Migration {
 	 * @since    1.0.0
 	 * @access   private
 	 */
-	private function load_dependencies() {
+	private function load_dependencies()
+	{
 
 		/**
 		 * The class responsible for orchestrating the actions and filters of the
 		 * core plugin.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-bootstrap-3-4-migration-loader.php';
+		require_once plugin_dir_path(dirname(__FILE__)) . 'includes/class-bootstrap-3-4-migration-loader.php';
 
 		/**
 		 * The class responsible for defining internationalization functionality
 		 * of the plugin.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-bootstrap-3-4-migration-i18n.php';
+		require_once plugin_dir_path(dirname(__FILE__)) . 'includes/class-bootstrap-3-4-migration-i18n.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the admin area.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-bootstrap-3-4-migration-admin.php';
+		require_once plugin_dir_path(dirname(__FILE__)) . 'admin/class-bootstrap-3-4-migration-admin.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the public-facing
 		 * side of the site.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'public/class-bootstrap-3-4-migration-public.php';
+		require_once plugin_dir_path(dirname(__FILE__)) . 'public/class-bootstrap-3-4-migration-public.php';
 
 		/**
 		 * The class responsible for defining and initializing Bootstrap Migration
@@ -128,7 +130,6 @@ class Bootstrap_3_4_Migration {
 		require_once plugin_dir_path(dirname(__FILE__)) . 'includes/class-bootstrap-3-4-migration-manager.php';
 
 		$this->loader = new Bootstrap_3_4_Migration_Loader();
-
 	}
 
 	/**
@@ -140,12 +141,12 @@ class Bootstrap_3_4_Migration {
 	 * @since    1.0.0
 	 * @access   private
 	 */
-	private function set_locale() {
+	private function set_locale()
+	{
 
 		$plugin_i18n = new Bootstrap_3_4_Migration_i18n();
 
-		$this->loader->add_action( 'plugins_loaded', $plugin_i18n, 'load_plugin_textdomain' );
-
+		$this->loader->add_action('plugins_loaded', $plugin_i18n, 'load_plugin_textdomain');
 	}
 
 	/**
@@ -155,14 +156,15 @@ class Bootstrap_3_4_Migration {
 	 * @since    1.0.0
 	 * @access   private
 	 */
-	private function define_admin_hooks() {
+	private function define_admin_hooks()
+	{
 
-		$plugin_admin = new Bootstrap_3_4_Migration_Admin( $this->get_plugin_name(), $this->get_version() );
+		$plugin_admin = new Bootstrap_3_4_Migration_Admin($this->get_plugin_name(), $this->get_version());
 
-		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
-		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
-		$this->loader->add_action( 'admin_menu', $plugin_admin, 'display_admin_page' );
-		//$this->loader->add_filter('the_content', $plugin_admin, 'invoke_upgrade');
+		$this->loader->add_action('admin_enqueue_scripts', $plugin_admin, 'enqueue_styles');
+		$this->loader->add_action('admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts');
+		$this->loader->add_action('admin_menu', $plugin_admin, 'display_admin_page');
+		// $this->loader->add_filter('the_content', $plugin_admin, 'invoke_upgrade');
 	}
 
 	/**
@@ -172,11 +174,12 @@ class Bootstrap_3_4_Migration {
 	 * @since    1.0.0
 	 * @access   private
 	 */
-	private function define_public_hooks() {
+	private function define_public_hooks()
+	{
 
-		$plugin_public = new Bootstrap_3_4_Migration_Public( $this->get_plugin_name(), $this->get_version() );
-		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
-		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );
+		$plugin_public = new Bootstrap_3_4_Migration_Public($this->get_plugin_name(), $this->get_version());
+		$this->loader->add_action('wp_enqueue_scripts', $plugin_public, 'enqueue_styles');
+		$this->loader->add_action('wp_enqueue_scripts', $plugin_public, 'enqueue_scripts');
 	}
 
 	/**
@@ -184,7 +187,8 @@ class Bootstrap_3_4_Migration {
 	 *
 	 * @since    1.0.0
 	 */
-	public function run() {
+	public function run()
+	{
 		$this->loader->run();
 	}
 
@@ -195,7 +199,8 @@ class Bootstrap_3_4_Migration {
 	 * @since     1.0.0
 	 * @return    string    The name of the plugin.
 	 */
-	public function get_plugin_name() {
+	public function get_plugin_name()
+	{
 		return $this->plugin_name;
 	}
 
@@ -205,7 +210,8 @@ class Bootstrap_3_4_Migration {
 	 * @since     1.0.0
 	 * @return    Bootstrap_3_4_Migration_Loader    Orchestrates the hooks of the plugin.
 	 */
-	public function get_loader() {
+	public function get_loader()
+	{
 		return $this->loader;
 	}
 
@@ -215,8 +221,8 @@ class Bootstrap_3_4_Migration {
 	 * @since     1.0.0
 	 * @return    string    The version number of the plugin.
 	 */
-	public function get_version() {
+	public function get_version()
+	{
 		return $this->version;
 	}
-
 }

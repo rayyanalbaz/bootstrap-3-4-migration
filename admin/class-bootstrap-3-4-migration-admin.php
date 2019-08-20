@@ -20,7 +20,8 @@
  * @subpackage Bootstrap_3_4_Migration/admin
  * @author     Calin Armenean <calin13@yorku.ca>
  */
-class Bootstrap_3_4_Migration_Admin {
+class Bootstrap_3_4_Migration_Admin
+{
 
 	/**
 	 * The ID of this plugin.
@@ -47,11 +48,11 @@ class Bootstrap_3_4_Migration_Admin {
 	 * @param      string    $plugin_name       The name of this plugin.
 	 * @param      string    $version    The version of this plugin.
 	 */
-	public function __construct( $plugin_name, $version ) {
+	public function __construct($plugin_name, $version)
+	{
 
 		$this->plugin_name = $plugin_name;
 		$this->version = $version;
-
 	}
 
 	/**
@@ -59,7 +60,8 @@ class Bootstrap_3_4_Migration_Admin {
 	 *
 	 * @since    1.0.0
 	 */
-	public function enqueue_styles() {
+	public function enqueue_styles()
+	{
 
 		/**
 		 * This function is provided for demonstration purposes only.
@@ -73,8 +75,7 @@ class Bootstrap_3_4_Migration_Admin {
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/bootstrap-3-4-migration-admin.css', array(), $this->version, 'all' );
-
+		wp_enqueue_style($this->plugin_name, plugin_dir_url(__FILE__) . 'css/bootstrap-3-4-migration-admin.css', array(), $this->version, 'all');
 	}
 
 	/**
@@ -82,7 +83,8 @@ class Bootstrap_3_4_Migration_Admin {
 	 *
 	 * @since    1.0.0
 	 */
-	public function enqueue_scripts() {
+	public function enqueue_scripts()
+	{
 
 		/**
 		 * This function is provided for demonstration purposes only.
@@ -96,38 +98,39 @@ class Bootstrap_3_4_Migration_Admin {
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/bootstrap-3-4-migration-admin.js', array( 'jquery' ), $this->version, false );
-
+		wp_enqueue_script($this->plugin_name, plugin_dir_url(__FILE__) . 'js/bootstrap-3-4-migration-admin.js', array('jquery'), $this->version, false);
 	}
 	/**
 	 * Create settings page.
 	 *
 	 * @since    1.0.0
 	 */
-	public function display_admin_page() {
+	public function display_admin_page()
+	{
 		add_menu_page(
 			'Bootstrap Migration Admin',
 			'Bootstrap Migration',
 			'manage_options',
 			'bootstrap-migration-options',
-		
-		array( $this, 'include_overview_partial' ),
-		'',
-		9999
-			);
-		}
 
-	public function include_overview_partial() {
-		include_once( PLUGIN_PATH . 'admin/partials/bootstrap-3-4-migration-admin-display.php' );
+			array($this, 'include_overview_partial'),
+			'',
+			9999
+		);
+	}
+
+	public function include_overview_partial()
+	{
+		include_once(PLUGIN_PATH . 'admin/partials/bootstrap-3-4-migration-admin-display.php');
 	}
 	/**
 	 * Invoke the upgrade class function.
 	 *
 	 * @since    1.0.0
-	 */   
-	public static function invoke_upgrade() {
+	 */
+	public static function invoke_upgrade()
+	{
 		$migration_manager = new bootstrap_migration();
-		$migration_manager->upgrade_class();
+		return $migration_manager->upgrade_class();
 	}
-
 }

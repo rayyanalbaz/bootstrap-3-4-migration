@@ -6,7 +6,6 @@
  * A class definition that includes attributes and functions used across both the
  * public-facing side of the site and the admin area.
  *
- * @link       https://bitbucket.org/1101c/
  * @since      1.0.0
  *
  * @package    Bootstrap_3_4_Migration
@@ -311,11 +310,19 @@ class bootstrap_migration
             $wpdb->query($sql);
         }
     }
-    public function empty_table(){
+    /**
+     * Empty the table in the database if it exists.
+     *
+     * @since    1.0.0
+     */
+    public function empty_table()
+    {
         global $wpdb;
         $report_table_name = $wpdb->prefix . 'migration_report';
-        $sql = "TRUNCATE `$report_table_name`";
-        $wpdb->query($sql);
+        if ($wpdb->get_var("SHOW TABLES LIKE '$report_table_name'") == $report_table_name) {
+            $sql = "TRUNCATE `$report_table_name`";
+            $wpdb->query($sql);
+        }
     }
     /**
      * Adds an entry to the dictionary.
@@ -396,7 +403,7 @@ class bootstrap_migration
      *
      * @since    1.0.0
      */
-    public function report_change($page_id, $old, $new ,$delta)
+    public function report_change($page_id, $old, $new, $delta)
     {
         require_once(ABSPATH . 'wp-includes/pluggable.php');
         global $wpdb;
@@ -426,7 +433,7 @@ class bootstrap_migration
             $dictionary = $this->read_all();
             require_once('simple_html_dom.php');
             $html = str_get_html($content);
-            error_log($html);
+            // error_log($html);
 
             if ($html) {
                 foreach ($dictionary as $entry) {
@@ -434,7 +441,7 @@ class bootstrap_migration
                     $to_replace = '.' . $entry["old"];
                     $find = $html->find($to_replace);
                     foreach ($find as $element) {
-                        if(sizeof($find) > 0){
+                        if (sizeof($find) > 0) {
                             $delta = sizeof($find);
                             $string = $element->class;
                             $element->class = str_replace($entry["old"], $entry["new"], $string);
@@ -448,14 +455,19 @@ class bootstrap_migration
             }
         }
     }
-
-    public function update_class($id){
-		global $wpdb;
-		$table_name = $wpdb->prefix . 'migration_report';
+    /**
+     * Updates the class to NEW value from the database dictionary in the post database.
+     *
+     * @since    1.0.0
+     */
+    public function update_class($id)
+    {
+        global $wpdb;
+        $table_name = $wpdb->prefix . 'migration_report';
         $query = "SELECT * FROM $table_name WHERE id = '$id'";
         $result = $wpdb->get_row($query, ARRAY_A);
         $content = get_post_field('post_content', $result['post_id']);
-        $modified_content = str_replace($result['old'],$result['new'],$content);
+        $modified_content = str_replace($result['old'], $result['new'], $content);
         $updated_post = array(
             'ID' => $result['post_id'],
             'post_content' => $modified_content,
@@ -471,14 +483,19 @@ class bootstrap_migration
         $sql = "UPDATE $table_name SET status = 'updated' WHERE id = '$id';";
         $wpdb->query($sql);
     }
-    
-    public function revert_class($id){
+    /**
+     * Reverts the class to OLD value from the database dictionary in the post database.
+     *
+     * @since    1.0.0
+     */
+    public function revert_class($id)
+    {
         global $wpdb;
-		$table_name = $wpdb->prefix . 'migration_report';
+        $table_name = $wpdb->prefix . 'migration_report';
         $query = "SELECT * FROM $table_name WHERE id = '$id'";
         $result = $wpdb->get_row($query, ARRAY_A);
         $content = get_post_field('post_content', $result['post_id']);
-        $modified_content = str_replace($result['new'],$result['old'],$content);
+        $modified_content = str_replace($result['new'], $result['old'], $content);
         $updated_post = array(
             'ID' => $result['post_id'],
             'post_content' => $modified_content,
@@ -490,7 +507,7 @@ class bootstrap_migration
                 echo $error;
             }
         }
-		$sql = "UPDATE $table_name SET status = 'reverted' WHERE id = '$id';";
+        $sql = "UPDATE $table_name SET status = 'reverted' WHERE id = '$id';";
         $wpdb->query($sql);
     }
 }
