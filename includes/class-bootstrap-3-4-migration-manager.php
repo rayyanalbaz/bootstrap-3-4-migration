@@ -120,45 +120,45 @@ class bootstrap_migration
             (60, 'col-xs-offset-10', 'offset-10', '0000-00-00 00:00:00'),
             (61, 'col-xs-offset-11', 'offset-11', '0000-00-00 00:00:00'),
             (62, 'col-xs-offset-12', 'offset-12', '0000-00-00 00:00:00'),
-            (63, 'col-sm-offset-0', 'offset-0', '0000-00-00 00:00:00'),
-            (64, 'col-sm-offset-1', 'offset-1', '0000-00-00 00:00:00'),
-            (65, 'col-sm-offset-2', 'offset-2', '0000-00-00 00:00:00'),
-            (66, 'col-sm-offset-3', 'offset-3', '0000-00-00 00:00:00'),
-            (67, 'col-sm-offset-4', 'offset-4', '0000-00-00 00:00:00'),
-            (68, 'col-sm-offset-5', 'offset-5', '0000-00-00 00:00:00'),
-            (69, 'col-sm-offset-6', 'offset-6', '0000-00-00 00:00:00'),
-            (70, 'col-sm-offset-7', 'offset-7', '0000-00-00 00:00:00'),
-            (71, 'col-sm-offset-8', 'offset-8', '0000-00-00 00:00:00'),
-            (72, 'col-sm-offset-9', 'offset-9', '0000-00-00 00:00:00'),
-            (73, 'col-sm-offset-10', 'offset-10', '0000-00-00 00:00:00'),
-            (74, 'col-sm-offset-11', 'offset-11', '0000-00-00 00:00:00'),
-            (75, 'col-sm-offset-12', 'offset-12', '0000-00-00 00:00:00'),
-            (76, 'col-md-offset-0', 'offset-0', '0000-00-00 00:00:00'),
-            (77, 'col-md-offset-1', 'offset-1', '0000-00-00 00:00:00'),
-            (78, 'col-md-offset-2', 'offset-2', '0000-00-00 00:00:00'),
-            (79, 'col-md-offset-3', 'offset-3', '0000-00-00 00:00:00'),
-            (80, 'col-md-offset-4', 'offset-4', '0000-00-00 00:00:00'),
-            (81, 'col-md-offset-5', 'offset-5', '0000-00-00 00:00:00'),
-            (82, 'col-md-offset-6', 'offset-6', '0000-00-00 00:00:00'),
-            (83, 'col-md-offset-7', 'offset-7', '0000-00-00 00:00:00'),
-            (84, 'col-md-offset-8', 'offset-8', '0000-00-00 00:00:00'),
-            (85, 'col-md-offset-9', 'offset-9', '0000-00-00 00:00:00'),
-            (86, 'col-md-offset-10', 'offset-10', '0000-00-00 00:00:00'),
-            (87, 'col-md-offset-11', 'offset-11', '0000-00-00 00:00:00'),
-            (88, 'col-md-offset-12', 'offset-12', '0000-00-00 00:00:00'),
-            (89, 'col-lg-offset-0', 'offset-0', '0000-00-00 00:00:00'),
-            (90, 'col-lg-offset-1', 'offset-1', '0000-00-00 00:00:00'),
-            (91, 'col-lg-offset-2', 'offset-2', '0000-00-00 00:00:00'),
-            (92, 'col-lg-offset-3', 'offset-3', '0000-00-00 00:00:00'),
-            (93, 'col-lg-offset-4', 'offset-4', '0000-00-00 00:00:00'),
-            (94, 'col-lg-offset-5', 'offset-5', '0000-00-00 00:00:00'),
-            (95, 'col-lg-offset-6', 'offset-6', '0000-00-00 00:00:00'),
-            (96, 'col-lg-offset-7', 'offset-7', '0000-00-00 00:00:00'),
-            (97, 'col-lg-offset-8', 'offset-8', '0000-00-00 00:00:00'),
-            (98, 'col-lg-offset-9', 'offset-9', '0000-00-00 00:00:00'),
-            (99, 'col-lg-offset-10', 'offset-10', '0000-00-00 00:00:00'),
-            (100, 'col-lg-offset-11', 'offset-11', '0000-00-00 00:00:00'),
-            (101, 'col-lg-offset-12', 'offset-12', '0000-00-00 00:00:00'),
+            (63, 'col-sm-offset-0', 'offset-sm-0', '0000-00-00 00:00:00'),
+            (64, 'col-sm-offset-1', 'offset-sm-1', '0000-00-00 00:00:00'),
+            (65, 'col-sm-offset-2', 'offset-sm-2', '0000-00-00 00:00:00'),
+            (66, 'col-sm-offset-3', 'offset-sm-3', '0000-00-00 00:00:00'),
+            (67, 'col-sm-offset-4', 'offset-sm-4', '0000-00-00 00:00:00'),
+            (68, 'col-sm-offset-5', 'offset-sm-5', '0000-00-00 00:00:00'),
+            (69, 'col-sm-offset-6', 'offset-sm-6', '0000-00-00 00:00:00'),
+            (70, 'col-sm-offset-7', 'offset-sm-7', '0000-00-00 00:00:00'),
+            (71, 'col-sm-offset-8', 'offset-sm-8', '0000-00-00 00:00:00'),
+            (72, 'col-sm-offset-9', 'offset-sm-9', '0000-00-00 00:00:00'),
+            (73, 'col-sm-offset-10', 'offset-sm-10', '0000-00-00 00:00:00'),
+            (74, 'col-sm-offset-11', 'offset-sm-11', '0000-00-00 00:00:00'),
+            (75, 'col-sm-offset-12', 'offset-sm-12', '0000-00-00 00:00:00'),
+            (76, 'col-md-offset-0', 'offset-md-0', '0000-00-00 00:00:00'),
+            (77, 'col-md-offset-1', 'offset-md-1', '0000-00-00 00:00:00'),
+            (78, 'col-md-offset-2', 'offset-md-2', '0000-00-00 00:00:00'),
+            (79, 'col-md-offset-3', 'offset-md-3', '0000-00-00 00:00:00'),
+            (80, 'col-md-offset-4', 'offset-md-4', '0000-00-00 00:00:00'),
+            (81, 'col-md-offset-5', 'offset-md-5', '0000-00-00 00:00:00'),
+            (82, 'col-md-offset-6', 'offset-md-6', '0000-00-00 00:00:00'),
+            (83, 'col-md-offset-7', 'offset-md-7', '0000-00-00 00:00:00'),
+            (84, 'col-md-offset-8', 'offset-md-8', '0000-00-00 00:00:00'),
+            (85, 'col-md-offset-9', 'offset-md-9', '0000-00-00 00:00:00'),
+            (86, 'col-md-offset-10', 'offset-md-10', '0000-00-00 00:00:00'),
+            (87, 'col-md-offset-11', 'offset-md-11', '0000-00-00 00:00:00'),
+            (88, 'col-md-offset-12', 'offset-md-12', '0000-00-00 00:00:00'),
+            (89, 'col-lg-offset-0', 'offset-lg-0', '0000-00-00 00:00:00'),
+            (90, 'col-lg-offset-1', 'offset-lg-1', '0000-00-00 00:00:00'),
+            (91, 'col-lg-offset-2', 'offset-lg-2', '0000-00-00 00:00:00'),
+            (92, 'col-lg-offset-3', 'offset-lg-3', '0000-00-00 00:00:00'),
+            (93, 'col-lg-offset-4', 'offset-lg-4', '0000-00-00 00:00:00'),
+            (94, 'col-lg-offset-5', 'offset-lg-5', '0000-00-00 00:00:00'),
+            (95, 'col-lg-offset-6', 'offset-lg-6', '0000-00-00 00:00:00'),
+            (96, 'col-lg-offset-7', 'offset-lg-7', '0000-00-00 00:00:00'),
+            (97, 'col-lg-offset-8', 'offset-lg-8', '0000-00-00 00:00:00'),
+            (98, 'col-lg-offset-9', 'offset-lg-9', '0000-00-00 00:00:00'),
+            (99, 'col-lg-offset-10', 'offset-lg-10', '0000-00-00 00:00:00'),
+            (100, 'col-lg-offset-11', 'offset-lg-11', '0000-00-00 00:00:00'),
+            (101, 'col-lg-offset-12', 'offset-lg-12', '0000-00-00 00:00:00'),
             (102, 'col-xs-push-0', 'order-0', '0000-00-00 00:00:00'),
             (103, 'col-xs-push-1', 'order-1', '0000-00-00 00:00:00'),
             (104, 'col-xs-push-2', 'order-2', '0000-00-00 00:00:00'),
@@ -471,15 +471,15 @@ class bootstrap_migration
             'post_content' => $modified_content,
         );
         wp_update_post($updated_post, true);
-        if (is_wp_error($result['post_id'])) {
-            $errors = $result['post_id']->get_error_messages();
-            foreach ($errors as $error) {
-                echo $error;
-            }
-        }
 
         $sql = "UPDATE $table_name SET status = 'updated' WHERE id = '$id';";
-        $wpdb->query($sql);
+        $qryResult = $wpdb->query($sql);
+
+        if (is_wp_error($result['post_id']) || !$qryResult) {
+            error_log(is_wp_error($result['post_id']));
+            error_log($qryResult);
+            update_option('bootstrap_update', 'fail');
+        }
     }
     /**
      * Reverts the class to OLD value from the database dictionary in the post database.
@@ -499,13 +499,14 @@ class bootstrap_migration
             'post_content' => $modified_content,
         );
         wp_update_post($updated_post, true);
-        if (is_wp_error($result['post_id'])) {
-            $errors = $result['post_id']->get_error_messages();
-            foreach ($errors as $error) {
-                echo $error;
-            }
-        }
+
         $sql = "UPDATE $table_name SET status = 'reverted' WHERE id = '$id';";
-        $wpdb->query($sql);
+        $revert_qry_result = $wpdb->query($sql);
+
+        if (is_wp_error($result['post_id']) || !$revert_qry_result) {
+            error_log(is_wp_error($result['post_id']));
+            error_log($revert_qry_result);
+            update_option('bootstrap_revert', 'fail');
+        }
     }
 }

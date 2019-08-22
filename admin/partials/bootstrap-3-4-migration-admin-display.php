@@ -17,21 +17,36 @@
 
 if (!empty($_GET['message'])) {
     if ($_GET['message'] == 1) {
-        ?>
-<div class="notice notice-success is-dismissible">
-    <p>
-        <?php echo 'Class has been updated.' ?>
-    </p>
-</div>
-<?php
+        if (get_option('bootstrap_update', 'success') == 'success') {
+            echo    '<div class="notice notice-success is-dismissible">';
+            echo    '<p>';
+            echo    'Class has been updated.';
+            echo    '</p>';
+            echo    '</div>';
+        } else if (get_option('bootstrap_update', 'success') == 'fail') {
+
+            echo    '<div class="notice notice-error is-dismissible">';
+            echo    '<p>';
+            echo    'An error occurred.';
+            echo    '</p>';
+            echo    '</div>';
+        }
+        delete_option('bootstrap_update');
     } else if ($_GET['message'] == 2) {
-        ?>
-<div class="notice notice-warning is-dismissible">
-    <p>
-        <?php echo 'Class has been reverted.' ?>
-    </p>
-</div>
-<?php
+        if (get_option('bootstrap_revert', 'success') == 'success') {
+            echo    '<div class="notice notice-warning is-dismissible">';
+            echo    '<p>';
+            echo    'Class has been reverted.';
+            echo    '</p>';
+            echo    '</div>';
+        } else if (get_option('bootstrap_revert', 'success') == 'fail') {
+            echo    '<div class="notice notice-error is-dismissible">';
+            echo    '<p>';
+            echo    'An error occurred.';
+            echo    '</p>';
+            echo    '</div>';
+        }
+        delete_option('bootstrap_revert');
     }
 }
 ?>
