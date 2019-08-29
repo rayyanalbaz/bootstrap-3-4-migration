@@ -186,7 +186,7 @@ class bootstrap_migration_report_table extends WP_List_Table
      */
     function process_bulk_action()
     {
-
+        
         /**
          * Since there will be two tables on the same page that use the actions
          * we need to verify which arguments are present in the $_REQUEST. 
@@ -201,6 +201,8 @@ class bootstrap_migration_report_table extends WP_List_Table
             // Call the method, and pass the singular argument we set in the actions link.
             $invoke_update = new bootstrap_migration();
             $invoke_update->update_class(esc_attr($_GET[$this->_args['singular']]));
+            add_query_arg( 'message', '3' );
+
         }
 
         if (('revert' === $this->current_action()) && (isset($_GET['id']))) {

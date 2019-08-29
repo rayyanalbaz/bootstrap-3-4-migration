@@ -14,8 +14,9 @@
 ?>
 
 <?php
-
 if (!empty($_GET['message'])) {
+
+
     if ($_GET['message'] == 1) {
         if (get_option('bootstrap_update', 'success') == 'success') {
             echo    '<div class="notice notice-success is-dismissible">';
@@ -49,6 +50,7 @@ if (!empty($_GET['message'])) {
         delete_option('bootstrap_revert');
     }
 }
+
 ?>
 <!-- This file should primarily consist of HTML with a little bit of PHP. -->
 <div class="wrap">

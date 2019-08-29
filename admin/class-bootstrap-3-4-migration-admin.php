@@ -133,4 +133,36 @@ class Bootstrap_3_4_Migration_Admin
 		$migration_manager = new bootstrap_migration();
 		$migration_manager->upgrade_class();
 	}
+
+	function general_admin_notice(){
+		// global $pagenow;
+		// if ( $pagenow == 'admin.php' && get_transient( 'fx-admin-notice-panel' )) {
+		// 	if ( get_option('bootstrap_update' , 'success') == 'fail'){
+		// 		echo '<div class="notice notice-error is-dismissible">
+		// 		 <p>error.</p>
+		// 	 </div>';
+		// 	} else {
+		// 		echo '<div class="notice notice-success is-dismissible">
+		// 		<p>Cool.</p>
+		// 	</div>';
+		// 	}
+		// 	delete_option('bootstrap_update');
+		// 	delete_transient( 'fx-admin-notice-panel' );
+
+		// }
+
+		// if( get_transient( 'fx-admin-notice-panel' ) ){
+			
+		// 	echo '<div class="notice notice-success is-dismissible">
+		// 		 <p>cool.</p>
+		// 	 </div>';
+		// 	/* Delete transient, only display this notice once. */
+		// 	delete_transient( 'fx-admin-notice-panel' );
+		// }
+		global $rayyan;
+		$rayyan = false;
+	}
+	function my_admin_notice(){
+		// echo 'hello';
+	}
 }

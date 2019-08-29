@@ -479,7 +479,7 @@ class bootstrap_migration
             error_log(is_wp_error($result['post_id']));
             error_log($qryResult);
             update_option('bootstrap_update', 'fail');
-        }
+        }        
     }
     /**
      * Reverts the class to OLD value from the database dictionary in the post database.
